@@ -19,7 +19,8 @@ Voici les éléments étant _au minimum_ requis dans la création de cette page 
 9. Trois (3) niveaux de lecture différents
 10. Deux (2) sélecteurs CSS combinés (descendant, voisin, successeur, etc.)
 
-Finalement, il vous est demandé d'insérer des commentaires là où les éléments requis ci-dessus se trouvent dans votre code. Des commentaires en entête de votre fichier CSS énonçant vos choix de palette de couleurs et de typographie sont aussi demandés.
+
+Finalement, il vous est demandé de supporter les fenêtres au-delà de 1280px de largeur et puis d'insérer des commentaires là où les éléments requis ci-dessus se trouvent dans votre code. Des commentaires en entête de votre fichier CSS énonçant vos choix de palette de couleurs et de typographie sont aussi demandés.
 
 ## Inspiration
 
