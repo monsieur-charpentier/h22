@@ -1,0 +1,23 @@
+# Quiz #1 — Solution
+
+1. c
+2. d
+3. faux
+4. b
+5. faux
+6. c
+7. vrai
+8. vrai
+9. c
+10. vrai
+11. vrai
+12. a
+13. faux
+14. c
+15. faux
+16. d
+17. b
+18. c
+19. vrai
+20. d
+

@@ -1,0 +1,17 @@
+# Séance 19 — Références
+
+- [MDN — Transform](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Transforms)
+- [MDN — Utiliser les transformations](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Transforms/Utilisation_des_transformations_CSS)
+- [MDN — Les fonctions de transformation](https://developer.mozilla.org/fr/docs/Web/CSS/transform-function)
+- [MDN — Transition](https://developer.mozilla.org/fr/docs/Web/CSS/transition)
+- [MDN — Utiliser les transitions CSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Transitions/Utiliser_transitions_CSS)
+
+
+<style type="text/css">
+    @media print {
+        body {
+            all: initial;
+        }
+    }
+</style>
+

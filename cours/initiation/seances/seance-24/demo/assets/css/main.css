@@ -1,0 +1,224 @@
+/*
+
+Langage graphique
+
+Espacement moyen (gouttière) : 20px
+
+*/
+
+
+/* Base générique */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p, ul {
+	max-width: 80ch
+}
+
+*+p, *+ul, *+img, *+blockquote,
+*+h1, *+h2, *+h3, *+h4, *+h5, *+h6 {
+	margin-top: 20px;
+}
+
+main>div>*+*,
+main>*+*,
+body>nav>div>*+* {
+	margin-top: 20px;
+}
+
+img {	
+	max-width: 100%;
+}
+
+/* Corps de page */
+
+body {
+	padding: 20px;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Entête principale */
+
+body>header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+body>header img {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+/* Navigation principale */
+
+body>nav {
+	text-align: center;
+}
+
+body>nav a {
+	font-size: 24px;
+	text-decoration: none;
+}
+
+/* Entête d'article */
+
+body>main>header {
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	min-height: 50vmin;
+	overflow: hidden;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+body>main>header:before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: block;
+	z-index: -1;
+	background-color: rgba(0,0,0,.5);
+}
+
+body>main>header>img {
+	position: absolute;
+	z-index: -2;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	object-fit: cover;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+body>main>header>h2 {
+	color: white;
+	font-size: 42px;
+	text-align: center;
+}
+
+/* Modules */
+
+.module-accroche {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.module-accroche>img {
+	min-width: 150px;
+	object-fit: cover;
+}
+
+.module-accroche>div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width: 250px;
+	background-color: pink;
+	padding: 20px;
+}
+
+.module-accroche>* {
+	flex-basis: 50%;
+	flex-shrink: 1;
+	flex-grow: 1;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+
+
+
+/* Menu hamburger */
+
+@media (max-width: 700px) {
+
+	/* Menu */
+
+	body>nav {
+		position: absolute; 
+		top: 0;
+		right: 0;
+
+	}
+
+	/* Menu déroulant */
+
+	body>nav>div {
+		position: fixed;
+
+		padding: 20px;
+		background-color: white;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		transition: 200ms ease-in-out;
+		transition-property: opacity, transform;
+	}
+
+	body>nav a {
+		display: block;
+	}
+
+
+	body>nav>input[type="checkbox"] {
+		display: inline-block;
+		margin: 20px;
+		margin-bottom: 40px;
+		appearance: none;
+		position: relative;
+		z-index: 1;
+	}
+
+	body>nav>input[type="checkbox"]:before {
+		content: "Fermer le menu";
+		padding: 10px;
+	}
+
+	body>nav>input[type="checkbox"]:not(:checked):before {
+		content: "Ouvrir le menu";
+	}
+
+
+
+	body>nav>input[type="checkbox"]:not(:checked)+div {
+		opacity: 0;
+		pointer-events: none;
+		transform: scale(.95);
+	}
+}
+
+@media (min-width: 700px) {
+	body>nav>input {
+		display: none;
+	}
+
+	body>nav {
+		margin-bottom: 40px;
+	}
+
+	body>nav a+a {
+		margin-left: 20px;
+	}
+}

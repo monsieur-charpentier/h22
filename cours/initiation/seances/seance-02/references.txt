@@ -1,0 +1,9 @@
+# Séance #02 — Références
+
++ [HTML: The Living Standard — Introduction (anglais seulement)](https://html.spec.whatwg.org/dev/introduction.html)
+* [Référence des éléments HTML](https://developer.mozilla.org/fr/docs/Web/HTML/Element)
+* [Référence des attributs HTML](https://developer.mozilla.org/fr/docs/Web/HTML/Attributs)
+* [Les attributs universels](https://developer.mozilla.org/fr/docs/Web/HTML/Attributs_universels)
+* [Commencer avec le HTML](https://developer.mozilla.org/fr/docs/Apprendre/HTML/Introduction_%C3%A0_HTML/Getting_started)
+* [Qu'avez-vous dans la tête ? Métadonnées en HTML](https://developer.mozilla.org/fr/docs/Apprendre/HTML/Introduction_%C3%A0_HTML/The_head_metadata_in_HTML)
+* [Liste des entités de caractères](https://fr.wikipedia.org/wiki/Liste_des_entit%C3%A9s_de_caract%C3%A8re_de_XML_et_HTML)

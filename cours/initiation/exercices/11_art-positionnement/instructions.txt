@@ -1,0 +1,10 @@
+# Exercice #11 — Art contemporain et stratégies de positionnement
+
+1. Assurez-vous de la résolution de votre écran.
+2. Prenez connaissance du fichier `reference-1920.png` ou  `reference-1280.png` étant le plus près de l'actuelle résolution de votre écran. Ce fichier contient l'œuvre d'art contemporain à reproduire.
+3. La structure HTML vous est fournie dans le fichier `index.html` et une base CSS vous est suggérée dans le fichier `main.css`.
+4. Vous pouvez réutiliser (en partie) le code CSS du dernier exercice si vous le désirez.
+5. Les dimensions des éléments peuvent inclure les propriétés du modèle de boîte interne _(width, height, padding, border)_
+6. Utilisez en premier lieu que les propriétés CSS de positionnement _(float, clear, position, top, left, bottom, right)_.
+7. Les marges _(margin)_ doivent être utilisées dans de rares cas. Veillez à ne les utiliser qu'en ces cas.
+7. Essayez d'utiliser le moins de propriétés possible.

@@ -1,0 +1,17 @@
+# Séance #12 — Références
+
++ __Les fomulaires__
+    + [Les éléments de formulaire](https://developer.mozilla.org/fr/docs/Web/HTML/Element#Formulaires)
+    + [Mon premier formulaire HTML](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Mon_premier_formulaire_HTML)
+    + [Comment structurer un formulaire HTML](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Comment_structurer_un_formulaire_HTML)
+    + [Les blocs de formulaires natifs](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Les_blocs_de_formulaires_natifs)
+    + [Validation des données de formulaires](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Validation_donnees_formulaire)
+- __Les tableaux__
+    + [L'élément de tableau](https://developer.mozilla.org/fr/docs/Web/HTML/Element/table)
+    + [Tableaux HTML : notions de base](https://developer.mozilla.org/fr/docs/Apprendre/HTML/Tableaux/Basics)
+    + [Tableaux HTML : dispositions avancées et accessibilité](https://developer.mozilla.org/fr/docs/Apprendre/HTML/Tableaux/Advanced)
+    + [A Complete Guide to the Table Element (anglais seulement)](https://css-tricks.com/complete-guide-table-element/)
+- __Les balises `<audio>` & `<video>`__
+    + [Contenu audio et vidéo](https://developer.mozilla.org/fr/docs/Apprendre/HTML/Multimedia_and_embedding/Contenu_audio_et_video)
+    + [`<audio>` : l'élément audio embarqué](https://developer.mozilla.org/fr/docs/Web/HTML/Element/audio)
+    + [`<video>`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/video)

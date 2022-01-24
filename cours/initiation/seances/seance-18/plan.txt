@@ -1,0 +1,4 @@
+# Atelier de production
+
+Démo exercice #12
+Démo composition complète avec grilles

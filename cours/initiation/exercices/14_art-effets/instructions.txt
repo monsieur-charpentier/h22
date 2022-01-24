@@ -1,0 +1,6 @@
+# Exercice #14 — Art contemporain, interactivité et transitions
+
+1. La structure HTML vous est fournie dans le fichier `index.html` et la composition dans le fichier `main.css`.
+2. Utlisez les propriétés et pseudo-classes nécessaires pour recréer les effets interactifs présentés dans `reference.mp4`.
+3. Veillez à bien cibler les propriétés à être transitionnées.
+4. Essayez d'utiliser le moins de propriétés possible.

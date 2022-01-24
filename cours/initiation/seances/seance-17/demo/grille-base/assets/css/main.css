@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body:after {
+	 content: ""; 
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: block;
+	background-image: 
+	 linear-gradient(to right, transparent calc(100% - 20px), #ff000010 0);
+	background-size: calc(100% / 12 + 20px / 12) 100%;
+}
+
+body>header {
+	min-height: 400px;
+	background-color: #fafafa;
+}
+
+body>*+* {
+	margin-top: 20px;
+}
+
+main {
+	overflow: auto;
+}
+
+main>div {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+
+main>div>article {
+	min-height: 200px;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: #f0f0f0;
+	flex-basis: calc(100% / 3 - 20px);
+}
+
+main>div>article:first-child {
+	padding: 20px;
+	box-sizing: border-box;
+}

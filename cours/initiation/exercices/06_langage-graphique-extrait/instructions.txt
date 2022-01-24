@@ -1,0 +1,39 @@
+# Exercice #6 — Extraire un langage graphique
+
+1. Rendez-vous sur le [site du concepteur Web Chris Coyier](https://chriscoyier.net/)
+2. Ouvrez l'inspecteur du navigateur de votre choix.
+3. À l'aide de l'onglet « Elements », ciblez une à une les différentes partie du site. Vous pouvez effectuer un clic droit sur chacun des éléments désirés _ou_ vous pouvez passer en mode « Inspection » grâce au raccourci « CTRL/CMD+SHFT+C » (sur Chrome) puis cliquer normalement sur chacun des éléments.
+4. Pour chaque élément cliqué, retirez les valeurs appartenant au langage graphique dans la section « styles » de l'onglet « Elements ».
+5. Reconstituez ainsi le langage graphique complet de cette page en répertoriant dans un fichier texte toutes les valeurs utilisées pour chacune des composantes énumérées ci-dessous.
+
+---
+
+## Les composantes du langage graphique
+
+Toutes les quantités ci-dessous sont des estimés. _Généralement_, les composantes spécifiées contiennent environ cette quantité de valeurs différentes.
+
+### La palette de couleurs
+- de 3 à 5 couleurs
+
+### Les polices de caractère
+- de 1 à 3 polices
+
+### L'échelle typographique
+- de 3 à 7 tailles de caractères
+- de 3 à 5 hauteurs de ligne
+
+### L'échelle rythmique
+- de 5 à 10 mesures d'espacement
+
+### Les dimensions
+- de 3 à 10 grandeurs
+
+<style type="text/css">
+    @media print {
+        body {
+            all: initial;
+        }
+    }
+</style>
+
+

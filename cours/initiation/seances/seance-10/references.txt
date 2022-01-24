@@ -1,0 +1,20 @@
+# Séance #10 — Références
+
++ __Librairies de démarrage CSS__
+    + [Normalize.css](https://github.com/necolas/normalize.css/)
+    + [Reset CSS](https://meyerweb.com/eric/tools/css/reset/)
++ __À propos des librairies de démarrage__
+    * [Reboot, Resets & Reasoning (anglais seulement)](https://css-tricks.com/reboot-resets-reasoning/)
+    * [A Modern CSS Reset (anglais seulement)](https://dev.to/hankchizljaw/a-modern-css-reset-6p3)
+    * [User Agent Style Sheets: Basics and Samples (anglais seulement)](https://meiert.com/en/blog/user-agent-style-sheets/)
+    * [Why “Reset” Style Sheets Are Bad (anglais seulement)](https://meiert.com/en/blog/reset-style-sheets-are-bad/)
+    * [Stop Using Resets: Visual Examples of the Practical Nonsense of Resets and Normalizers (anglais seulement)](https://meiert.com/en/blog/stop-using-resets/)
++ __Références des éléments de sélection CSS__
+    * [Sélecteurs CSS](https://developer.mozilla.org/fr/docs/Web/CSS/S%C3%A9lecteurs_CSS)
+    * [Pseudo-classes](https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-classes)
+    * [Pseudo-éléments](https://developer.mozilla.org/fr/docs/Web/CSS/Pseudo-%C3%A9l%C3%A9ments)
++ __Approches stylistiques en CSS__
+    * [Semantic CSS With Intelligent Selectors (anglais seulement)](https://www.smashingmagazine.com/2013/08/semantic-css-with-intelligent-selectors/)
+    * [The single responsibility principle applied to CSS (anglais seulement)](https://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
+    * [CSS Inheritance, The Cascade And Global Scope: Your New Old Worst Best Friends (anglais seulement)](https://www.smashingmagazine.com/2016/11/css-inheritance-cascade-global-scope-new-old-worst-best-friends/)
+    * [CSS Guidelines (anglais seulement)](https://cssguidelin.es/)

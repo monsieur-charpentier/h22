@@ -1,0 +1,151 @@
+# Quiz #1
+
+## Remise
+La remise du quiz se fera sur Léa avant le 15 décembre 2020, 23h59. Aucun retard ne sera toléré, un travail remis après 23h59 sera considéré avec un jour de retard.
+
+### Politique sur les retards
+
+Un travail en retard sera pénalisé de 5 % de la note maximale pour chaque jour de retard, et ce jusqu’à concurrence de 25 %. Aucun travail ne sera accepté au-delà de 5 jours de retard.
+
+## Instructions
+
+- Répondez aux questions suivantes dans un __fichier texte__ __`quiz.txt`__.
+- __Numérotez vos réponses__ aux questions en suivant l'ordre ci-dessous.
+- Une bonne réponse vous mérite un (1) point et une mauvaise réponse, zéro (0).
+- Une abstention de répondre vous vaudra un demi-point (.5).
+- La note finale sera ramenée sur __10 points__.
+
+__Bonne recherche !__
+
+## Questions
+
+1. __Choix de réponse__ — Quel est le nom du moteur de rendu du navigateur Firefox ?
+    - Chromium
+    - Webkit
+    - Gecko
+    - Aucune de ces réponses
+2. __Choix de réponse__ — Laquelle des balises ci-dessous ne doit être utilisée absolument qu'une seule fois dans une page ?
+    - article
+    - div
+    - footer
+    - main
+3. __Vrai ou faux__ — la balise `<a>` ne peut _pas_ servir à lier vers des ancres à l'intérieur d'une page. Il faut plutôt employer la balise `<link>` à cet effet.
+4. __Choix de réponse__ — Lequel des types de fichier suivants peut être intégré à une page HTML grâce à la balise `<link>` ?
+    - script
+    - css
+    - vidéo
+    - audio
+5. __Vrai ou faux__ — La suite d'éléments de titre ci-dessous est _sémantiquement_ adéquate :  
+```html
+    <h1>Un titre</h1>
+    <p>Un peu de texte.</p>
+    <h2>Un autre titre</h2>
+    <p>Encore peu de texte.</p>
+    <h4>Un dernier titre</h4>
+    <p>Plus de texte.</p>
+```
+6. __Choix de réponse__ — Quel attribut ci-dessous sert à indiquer la __destination__ du lien défini par la balise `<a>` ?
+    - link
+    - src
+    - href
+    - target
+7. __Vrai ou faux__ — La valeur d'un attribut `id=""` se doit d'être absolument unique dans un document HTML.
+8. __Vrai ou faux__ — Le « _document outline_ » tel qu'implémenté dans les navigateurs modernes ne reconnaît _pas_ les structures de titres imbriqués telle que celle présentée ci-dessous :
+```html
+<h1>Titre de premier</h1>
+<section>
+    <h1>Titre de second niveau</h1>
+    <section>
+        <h1>Titre de troisième niveau</h1>
+    </section>
+</section>
+```
+9. __Choix de réponse__ — Lequel des attributs suivants de la balise `<meta>` sert à s'assurer de l'affichage correct du langage employé dans une page Web ?
+    - lang
+    - char
+    - charset
+    - unicode
+10. __Vrai ou faux__ — Les deux syntaxes ci-dessous sont valides.
+```html
+<img src="image.jpg" alt="Mon image">
+
+<img src="image.jpg" alt="Mon image" />
+```
+11. __Vrai ou faux__ — Une balise `<ul>` ne peut contenir comme __enfant direct__ que des balises `<li>`.
+12. __Choix de réponse__ — Du contenu supplémentaire ou tangentiellement relié au contenu principal devrait être structuré à l'aide de quelle balise suivante ?
+    - aside
+    - section
+    - sup
+    - figure
+13. __Vrai ou faux__ — La balise de _structure_ HTML générique s'appelle `span`.
+14. __Choix de réponse__ — Quelle balise parmi celles-ci se doit absolument d'être présente dans toute page Web ?
+    - footer
+    - main
+    - title
+    - article
+15. __Vrai ou faux__ Le code HTML ci-dessous est valide.
+```html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Mon titre de page</title>
+</head>
+<body>
+    <h1>Mon titre de page</h1>
+    <p>Un cours paragraphe avec 
+      <a href="https://adressedulien.com">
+        <button id="mon-super-bouton">un lien bouton</button>
+      </a>
+      à l'intérieur</p>
+</body>
+</html>
+```
+16. __Choix de réponse__ — Vous devez baliser une pièce de contenu qui est autonome et pourrait être réutilisée, comme telle, dans un tout autre contexte, possiblement sur un autre site Web. Sémantiquement parlant, quelle serait la balise toute indiquée pour ce genre de contenu ?
+    - main
+    - aside
+    - section
+    - article
+17. __Choix de réponse__ — Quel attribut de la balise ``<img>`` est nécessaire _à la fois pour l'optimisation du référencement et comme critère d'accessibilité_ ?
+    - src
+    - alt
+    - title
+    - name
+18. __Choix de réponse__ — Quel est le niveau d'accessibilité dont la totalité des critères de succès (_à deux exceptions près_) est exigé par le Secrétariat du Conseil du Trésor du Québec ?
+    - BBB
+    - A
+    - AA
+    - AAA
+19. __Vrai ou faux__ — Les « Règles pour l'accessibilité des contenus Web (WCAG) 2.0 » contiennent 12 règles organisées sous 4 principes fondamentaux.
+20. __Choix de réponse__ — Lequel des concepts suivants _n'est pas_ un principe fondamental du WCAG 2.0 ?
+    - Perceptible
+    - Compréhensible
+    - Robuste
+    - Multiplateforme
+
+
+
+<style type="text/css">
+    ol ul { list-style-type: lower-alpha; }
+    .codehilite {
+        margin-top: .25em;
+    }
+    .codehilite .err {
+        background-color: initial;
+        color: inherit;
+    }
+
+    ol>li {
+        page-break-inside: avoid;
+    }
+
+    ol>li+li {
+        margin-top: .5em;
+    }
+
+    @media print {
+        body {
+            all: initial;
+        }
+    }
+</style>
+

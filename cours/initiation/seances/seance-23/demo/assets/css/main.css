@@ -1,0 +1,137 @@
+/* Règles générales -------------------------- */
+
+* {
+	transition: 200ms ease-in-out;
+	transition-property: background-color, opacity, transform, color;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	/* outline: 1px dashed red; */
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* Entête principale -------------------------- */
+
+body>header {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 40px;
+	vertical-align: top;
+}
+
+body>header img {
+	object-fit: cover;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin: auto;
+	display: block;
+}
+
+body>header h1 {
+	font-size: 16px;
+	color: grey;
+	margin-top: 20px;
+	text-align: center;
+	font-weight: 500;
+}
+
+
+/* Navigation principale -------------------------- */
+
+body>nav {
+	display: inline-block;
+	margin-left: 60px;
+	margin-top: 40px;
+}
+
+body>nav>* {
+	display: inline-block;
+}
+
+body>nav a:hover {
+	background-color: lightgrey;
+}
+
+body>nav a {
+	padding: 20px;
+}
+
+
+/* Menu complémentaire -------------------------- */
+
+body>aside {
+	position: relative;
+	float: right;
+}
+
+body>aside>header {
+	padding: 20px;
+}
+
+body>aside>header h2 {
+	font-weight: normal;
+	font-size: 16px;
+	display: inline;
+}
+
+body>header>small {
+	font-size: 10px;
+	margin-left: 10px;
+}
+
+body>aside>div {
+	position: absolute;
+	right: 0;
+	padding: 10px;
+	width: max-content;
+}
+
+body>aside>div,
+body>aside>header {
+	background-color: lightgrey;
+}
+
+body>aside>div a {
+	display: block;
+	padding: 10px;
+}
+
+body>aside>div a:hover {
+	background: aqua;
+}
+
+/* Règles d'interaction */
+
+aside:not(:hover)>div:not(:focus-within) {
+	opacity: 0;
+	pointer-events: none;
+}
+
+aside:not(:hover)>div a {
+	opacity: 0;
+	transform: translateY(-10px);
+}
+
+aside:hover>div {
+	transition-delay: 60ms;
+}
+
+aside>div {
+	transition: 100ms ease-in-out;
+	transition-property: opacity;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+	Ce fichier est un exemple de page Web de base.
+	Il contient les balises minimalement nécessaires ainsi que quelques exemples de balises de contenu. 
+	Presque toutes les balises auront une ouverture et fermeture comme ceci : <html></html>
+	Les balises peuvent (ou doivent pour certaines) contenir des attributs prenant la forme suivante : nom="valeur"
+-->
+
+<!-- 
+	Chaque page Web doit commencer par la balise « vide » : <!DOCTYPE html>
+	On insère à la suite de cette dernière la balise <html> dans laquelle nous insérerons *toutes* les autres.
+	Il est suggéré de fournir un attribut lang="" à la balise <html> pour indiquer la langue principale du document.
+ -->
+<html lang="fr">
+<!-- 
+	La balise <head> contient des informations traitées par les navigateurs et engins de recherche.
+	Entre autres, on y retrouvera metas, feuilles de styles et scripts.
+	Son contenu n'est jamais affiché à l'écran.
+-->
+<head>
+	<!-- Toute page Web doit contenir un titre, inséré dans la balise <title> -->
+	<title>Séance 2</title>
+	<!-- 
+		La balise <meta charset="utf-8"> est nécessaire au bon fonctionnement de l'encodage de nos pages.
+	-->
+	<meta charset="utf-8">
+	<!-- 
+		Certaines balises dites « vides » ne doivent pas être fermées. C'est le cas pour la balise <meta> ci-dessous.
+		Ces balises peuvent tout de même se « fermer sur elles-mêmes » comme ceci : 
+		<meta charset="utf-8" />
+		La barre oblique permet à  la balise de se « fermer sur elle-même.
+	-->
+	<meta name="author" content="Marc-André Charpentier">
+	<!-- 
+		On peut insérer plusieurs attributs au sein d'une même balise. 
+		Mais chaque attribut se doit d'être unique au sein de la même balise. 
+	-->
+	<meta name="description" content="Ma première page Web">
+</head>
+<!-- La balise <body> contient le corps de la page, soit tout le contenu qu'on veut être affiché à l'écran grâce au navigateur. -->
+<body>
+	<!-- La balise <h1> est nécessaire dans toute page Web. Elle contient le titre de la page à être affiché. -->
+	<h1>Séance 2</h1>
+	<!-- Du contenu textuel (et/ou d'autres balises) peut être inséré à l'intérieur des balises ouvrantes et fermantes -->
+	<p>Ceci est du texte.</p>
+	<!-- 
+		L'attribut « id » ci-dessous sert d'ancrage dans la page. 
+		Il peut être utilisé comme « fragment » dans l'url afin d'y accéder directement
+		Il s'agit là d'un exemple typique de ses nombreux usages.
+	 -->
+	<h2 id="titre-de-second-niveau">Titre de second niveau</h2>
+	<p>Ceci est du texte.</p>
+	<h2>Titre de second niveau</h2>
+	<!-- 
+		Certains caractères doivent être saisis en tant qu'entités comme ci-dessous
+	-->
+	<p>Ceci est une mention de droit d'auteur avec sigle encodé : &copy; 2020</p>
+</body>
+</html>

@@ -1,0 +1,173 @@
+/* 
+
+Palette de couleurs
+
+#EFE1D2
+#252026
+#7F3019
+#CB8635
+#ECCB68
+
+Échelle rythmique
+
+8px
+12px
+24px
+40px
+56px
+96px
+
+Échelle typographique (tierce mineure : voir https://type-scale.com/ )
+
+1em
+1.25em
+1.563em
+1.953em
+2.441em
+3.052em
+
+*/
+
+/* Application de la palette de couleurs */
+
+html {
+	background-color: #EFE1D2;
+	color: #252026; /* Règle héritée par tous les enfants */
+}
+
+figure {
+	border-width: 2px;
+	border-style: solid;
+	border-color: hsla(32, 59%, 50%, .4);
+}
+
+h1, h2 {
+	color: #CB8635; /* Règle qui supplante l'héritage */
+}
+
+dl {
+	color: #7F3019; /* Règle qui supplante l'héritage */
+	background-color: hsla(32, 59%, 50%, .2); /* Une autre façon de formuler les couleurs ! */
+}
+
+h3, ol, ul {
+	color: #7F3019; /* Règle qui supplante l'héritage */
+}
+
+/* Application de la police de caractères */
+html {
+	font-family: 'Montserrat', 'Times', serif;  /* Règle héritée par tous les enfants */
+}
+
+/* 	Application de l'échelle typographique
+	et construction des niveaux de lecture. */
+html {
+	line-height: 1.625em;  /* Règle héritée par tous les enfants */
+}
+
+/* La taille de caractères par défaut du navigateur est de 16px.
+   Il est de bon usage de ne pas la modifier... 
+   ou d'avoir une très bonne raison de le faire  */
+
+h1, h2, h3 {
+  font-weight: 400;
+  line-height: 1.15em; /* 1.15 fois la valeur de la taille du texte */
+}
+
+h1 {
+	font-size: 3.052rem; /* 3.052 fois la valeur *racine* (16px, ici) des caractères */
+}
+
+h2 {
+	font-size: 1.953rem; /* 1.953 fois la valeur *racine* (16px, ici) des caractères */
+}
+
+h3 {
+	font-size: 1.563rem; /* 1.563 fois la valeur *racine* (16px, ici) des caractères */
+}
+
+dl {
+	font-size: 1.25rem; /* 1.25 fois la valeur *racine* (16px, ici) des caractères */
+}
+
+dt {
+	font-weight: 500; /* Graisse de valeur « medium » */
+}
+
+strong {
+	font-weight: 600;  /* Graisse de valeur « semi-gras » */
+}
+
+/* Application de l'échelle rythmique */
+
+/* Le « padding » ajoute un espacement *à l'intérieur* des éléments.
+   La « margin » ajoute un espacement *à l'extérieur* de l'élément */
+
+html {
+	padding: 40px;
+}
+
+h1 {
+	margin-bottom: 96px;
+}
+
+h2 {
+	margin-top: 96px;
+}
+
+h3 {
+	margin-top: 40px;
+}
+
+figure {
+	margin: 0px;
+	padding: 8px;
+}
+
+dl {
+	margin-top: 12px;
+	padding: 12px;
+}
+
+body>header {
+	margin-bottom: 96px;
+}
+
+dd {
+	margin-left: 12px;
+}
+
+ul, ol {
+	padding-left: 1.06125em;
+}
+
+ol li {
+	margin-bottom: 24px;
+}
+
+/* Application de l'échelle de dimensions */
+body {
+	max-width: 60em;
+}
+
+ul, ol, p {
+	width: 40em;
+}
+
+/* Propriétés autres... 
+   que nous verrons des les prochaines séances ! */
+body {
+	margin: auto;
+}
+dl {
+	display: flex;
+}
+
+dd:not(:last-child) {
+	margin-right: auto;
+}
+
+img {
+	width: 100%;
+	display: block;
+}

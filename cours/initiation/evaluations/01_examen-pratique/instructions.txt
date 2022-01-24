@@ -1,0 +1,44 @@
+# Examen pratique #1 — Baliser un texte d'article de manière accessible et valide
+
+## Instructions
+
+1. Créez un fichier « html » que vous appellerez `index.html`.
+2. Ouvrez dans votre éditeur de texte (VSCode) _le dossier_ contenant votre fichier `index.html` et démarrez la prévisualisation en direct (GO LIVE dans la barre d'état au bas de la fenêtre).
+3. Saisissez-y les balises de base nécessaires telles que vues dans la séance #2.
+4. Copiez le texte du fichier `source.txt` et collez-le au bon endroit à l'intérieur du fichier `index.html` dans l'éditeur de texte.
+5. Décortiquez le texte collé puis enveloppez-le des balises textuelles adéquates (telles que vues dans la séance #3).
+6. Remplacez les mentions `(img : nom du fichier)` par le code permettant d'afficher l'image en question (_les images se situent dans le dossier_ `assets/img`).
+7. Remplacez les les mentions `(Texte du lien)[https://www.adressedulien.com]` par le code permettant de créer des hyperliens dont le texte sera `Texte du lien` et l'adresse, `https://www.adressedulien.com`. *Notez bien que ceci n'est qu'un exemple... le texte et l'adresse doivent être ceux qui se trouvent dans le texte source !*
+8. Choisissez un bout du texte et balisez-le pour qu'il soit mis en *emphase* puis choisissez-en un autre et balisez-le pour qu'il soit **important**.
+9. Balisez de manière sémantique le texte brut. Pour ce faire, utilisez les balises _textuelles et structurelles_ vues dans les séances #3 & #4. Aidez-vous du schéma décisionnel prévu à cet effet.
+10. Prévisualisez en direct (avec Google Chrome) à mesure que vous sauvegardez votre fichier `index.html`.
+11. Lorsque vous avez terminé de structurer la page, validez-la à l'aide du [validateur W3C](https://validator.w3.org/). Pour ce faire, copiez l'intégralité de votre code HTML et collez-le dans la zone prévue à cet effet.
+12. Appliquez les ajustements proposés par le W3C puis assurez-vous une dernière fois de la validité de votre code en répétant l'étape #11 ci-dessus.
+13. Si ce n'est déjà fait, installez l'extension « AXE » dans Google Chrome puis ouvrez son panneau « Outil de développement (Devtools — `F12` ou `CMD+ALT+i`).
+14. Sélectionnez l'onglet « AXE » dans le panneau « Outil de développement ».
+15. Suivez les recommendations de l'extension AXE et appliquez les correctifs nécessaires. Sauvegardez vos changements puis répétez le processus jusqu'à ce qu'il n'y ait plus d'erreurs ou avertissements.
+16. Répétez les étapes #11 & #12 jusqu'à ce que votre page soit complètement <mark>valide et accessible</mark>.
+17. Quand vous avez terminé, déposez votre dossier d'examen (en format zip) sur LÉA.
+
+PS : L'extension « Wave » vue en classe peut remplacer l'extension « Axe ».
+
+## Critères d'évaluation
+
+- Les mentions « lien » et « image » ont été remplacées.  / 1
+- Le gras (important) et l'italique (emphase) ont été correctement employés.  / 1
+- La sémantique textuelle est juste.  / 1
+- La sémantique structurelle est juste.  / 1
+- La page est valide et sans avertissements.  / 2
+- La page est complètement accessible.  / 2
+- Le code utilisé est toujours pertinent.  / 1
+- Le fichier de code est propre et bien indenté.  / 1
+
+Total : __ / 10
+
+<style type="text/css">
+    @media print {
+        body {
+            all: initial;
+        }
+    }
+</style>

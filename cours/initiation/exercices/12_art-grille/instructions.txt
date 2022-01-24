@@ -1,0 +1,8 @@
+# Exercice #12 — Art contemporain et grilles de montage
+
+1. Assurez-vous de la résolution de votre écran.
+2. Prenez connaissance du fichier `reference-1920.png` ou  `reference-1280.png` étant le plus près de l'actuelle résolution de votre écran. Ce fichier contient l'œuvre d'art contemporain à reproduire.
+3. La structure HTML vous est fournie dans le fichier `index.html` et une base CSS vous est suggérée dans le fichier `main.css`.
+4. Utlisez les propriétés « flexbox » et les marges pour reconstituer les grilles présentes dans la référence.
+5. N'oubliez pas : les marges doivent être calculées dans vos dimensions !
+6. Essayez d'utiliser le moins de propriétés possible.

@@ -1,0 +1,110 @@
+/*---------------------------------------*/
+
+/* Base */
+/* Normaliser et modifier certains 
+	comportements par défaut */
+
+/* Retirer les marges par défaut */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* Rétablir les couleurs des liens visités */
+a:visited {
+	color: inherit;
+}
+
+/* Retirer les les lignes sur 
+	tous les liens de navigation */
+nav a {
+	text-decoration: none;
+}
+
+/* Établir une marge intérieure
+	qui aligne mieux les puces */
+ul {
+	padding-left: 1rem;
+}
+
+/* Rythme minimal pour les items de liste */
+ul>*+* {
+	margin-top: 10px;
+}
+
+h5, h6 {
+	font-size: 0.9em;
+}
+
+
+/*---------------------------------------*/
+/* Couleurs et styles graphiques */
+
+body {
+	background-color: rgba(0,0,0,.08);
+}
+
+.entete-section {
+	background-color: lightgrey;
+}
+
+.navigation-principale>div {
+	background-color: rgba(0,0,0,.06);
+}
+
+.entete-contenu-principal {
+	background-color: white;
+}
+
+.contenu-secondaire {
+	background-color: rgba(255,255,255,.5);
+}
+
+.section-contenu-principal:first-of-type {
+	background-color: rgba(255,255,255,.75);
+}
+
+.section-contenu-principal:last-of-type {
+	background-color: rgba(255,255,255,.25);
+}
+
+.pied-de-page {
+	color: #5a5959;
+}
+
+.navigation-principale>aside,
+.contenu-secondaire {
+	color: #5a5959;
+}
+
+.contenu-principal nav {
+	border-bottom: 1px solid lightgrey;
+}
+
+
+/*---------------------------------------*/
+/* Typographie */
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navigation-principale>aside {
+	font-size: .75em;
+}
+
+.entete-section {
+	font-size: .6125em;
+}
+
+aside ul {
+	font-size: .8125em;
+}
+
+.contenu-principal nav {
+	font-size: .75em;
+}
+
+.pied-de-page {
+	font-size: .8125em;
+}
