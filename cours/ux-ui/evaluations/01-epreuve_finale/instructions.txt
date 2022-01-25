@@ -1,0 +1,31 @@
+# Épreuve finale — Livrable de conception complet
+
+La phase de conception tire à sa fin et vous devez maintenant recueillir tout le travail effectué depuis son commencement. _Il vous est demandé de vérifier la qualité, la validité, l'accessibilité, l'adaptabilité et l'efficacité du rendu final._ Pour ce faire, vous devez optimisez puis tester votre code.
+
+## Consignes
+
+1. Recueillez chaque livrable intermédiaire qui ait inspiré votre travail. Dans le meilleur des mondes (humhum) vous auriez pris le temps de colliger les idées prises ailleurs (chez vos collègues, par exemple) que vous avez appliquées.
+2. Testez, validez puis optimisez votre code. Des rapports de tests devront être joints à votre livrable complet.
+3. Rédigez un court texte (1 à 3 paragraphes) synthétisant votre travail, du début jusqu'à la fin. Exprimez-y les enjeux auxquels vous avez été confrontés et comment vous les avez résolus.
+4. Assurez-vous que tout est bien présent puis déposez l'archive complète de tout votre travail sur Lea.
+
+
+## Critères d'évaluation
+
+- Identification adéquate des contraintes du projet en fonction du devis / 2
+- Qualité de l’analyse de l’interface / 3
+- Qualité des propositions et des adaptations de l’interface / 5
+- Planification adéquate du montage / 3
+- Intégration précise des éléments du design / 5
+- Qualité et optimisation correcte du code source / 4
+- Respect des critères ergonomiques / 5
+- Production de tests de qualité / 3
+- Qualité de la proposition finale / 5
+
+### Total / 35
+
+## Remise
+
+La remise des travaux se fera sur Léa le [date] avant [heure]. Aucun retard ne sera toléré, un travail remis après [heure] sera considéré avec un jour de retard.
+
+Politique sur les retards : Un travail en retard sera pénalisé de 5 % de la note maximale pour chaque jour de retard, et ce jusqu’à concurrence de 25 %. Aucun travail ne sera accepté au-delà de 5 jours de retard.

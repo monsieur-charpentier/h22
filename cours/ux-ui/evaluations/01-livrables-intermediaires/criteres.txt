@@ -1,0 +1,26 @@
+## Analyse
+
+- Étude de la concurrence.
+- Compréhension du mandat.
+- Pertinence des fonctionnalités envisagées.
+- Justesse de l'arborescence structurelle.- Qualité des questions subséquentes.
+
+## Stratégie
+
+- Étendue des cas d'utilisation
+- Personas adéquats
+- Parcours pertinent
+
+## Exploration
+
+- Propositions d'interface pertinentes
+- Étendue du moodboard
+- Esthétique des palettes et agencements
+
+## Expérimentation
+
+- Qualité des propositions de composantes
+- Étendue graphique parcourue (éléments mentionnés dans le plan de cours)
+- Cohérence et harmonie des propositions
+- Pertinence des expérimentations
+- Rigueur et précision dans la conception graphique

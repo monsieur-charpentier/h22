@@ -1,0 +1,152 @@
+html {
+	--gutter: 1em;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+aside, main>*, article, footer {
+	background-color: rgba(220,150, 80, .05);
+	outline: 1px dashed rgba(100,100,100, .25);
+}
+
+article {
+	/* min-height: 15em; */
+	padding: 1em;
+}
+
+.grille {
+	gap: var(--gutter);
+}
+
+
+.grille.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+}
+
+body {
+	padding: 3em;
+}
+
+body>div {
+	display: flex;
+	width: 100%;
+	gap: 2em;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+}
+
+main {
+	flex-grow: 1;
+	flex-basis: 20em;
+}
+
+aside {
+	min-width: 12em;
+	flex-shrink: 1;
+	position: sticky;
+	top: 3em;
+	align-self: flex-start;
+	padding: 2em;
+	box-sizing: border-box;
+	min-height: calc(100vh - (3em * 2));
+}
+
+footer {
+	flex-basis: 100%;
+	flex-shrink: 0;
+	padding: 2em;
+	margin-top: 2em;
+}
+
+.liste {
+	display: flex;
+	flex-direction: column;
+	row-gap: 2em;
+}
+
+.liste>article {
+	display: flex;
+	column-gap: 1em;
+}
+
+.liste>article>* {
+	flex-basis: 0;
+	flex-grow: 2;
+}
+
+.liste>article>h4 {
+	flex-grow: 3;
+}
+
+.liste>article>a {
+	flex-basis: auto;
+	flex-shrink: 0;
+	flex-grow: 0;
+	align-self: flex-start;
+}
+
+.liste article img {
+	flex-basis: 10em;
+	flex-grow: 1;
+	min-width: 0;
+	flex-shrink: 0;
+	object-fit: cover;
+	order: -1;
+}
+
+article>* {
+	/* background-color: rgba(0,0,0,0.05); */
+	padding: .5em;
+}
+
+.liste details {
+	/* display: contents; */
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* .grille>article:nth-child(2) { */
+/* 	align-self: flex-start; */
+/* } */
+/* .grille>article:nth-child(3) { */
+/* 	align-self: flex-end; */
+/* } */
+/* .grille>article:nth-child(4) { */
+/* 	align-self: center; */
+/* } */
+
+/* .grille.flex { */
+/* 	display: flex; */
+/* 	flex-wrap: wrap; */
+/* } */
+
+/* @media screen { */
+/* 	.grille.flex>* { */
+/* 		flex-basis: calc(50% - .5em); */
+/* 	} */
+/* } */
+
+/* @media screen and (min-width: 50em) { */
+/* 	.grille.flex>* { */
+/* 		flex-basis: calc(33.333333% - .5em * 2); */
+/* 	} */
+/* } */
+
+/* @media screen and (min-width: 70em) { */
+/* 	.grille.flex>* { */
+/* 		flex-basis: calc(25% - .5em * 3); */
+/* 	} */
+/* } */
+
+/* @media screen and (min-width: 90em) { */
+/* 	.grille.flex>* { */
+/* 		flex-basis: calc(20% - .5em * 4); */
+/* 	} */
+/* } */

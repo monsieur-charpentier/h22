@@ -1,0 +1,191 @@
+# UX/UI — Notes
+
+On fait des démos ou on donne des exemple.
+
+Un gros projet. Tourne autour de ça. Aux deux semaines, livrable. On ajuste le livrable. Basé sur un processus « réel ».
+
+On intègre les éléments d'apprentissage à ce cadre.
+
+
+- Montrer la ligne de commande et les outils d'optimisation
+	- Minifier le code. Optimiser les images (mozjpeg). etc.
+- Impression des tests faits (lighthouse, network, performance).
+
+## Devis
+
+	Avec objectifs.
+	Couleurs de marque.
+	Fonctionnalités désirées.
+	~~Appareils~~
+	On veut un accès universel...
+	Pages et contenus
+
+## Projet
+
+Une plateforme d'enchères/échanges de timbres ?
+	Images simples à trouver.
+	Neutre.
+	Beaucoup de formats de timbres et donc d'images
+	Information typée
+		Date, pays, prix, nom, etc.
+	Tri, recherche, commentaires, notes, etc. possible
+
+
+## Livrables
+
+Analyse du devis (5%) / Semaine 3
+	Ce qui a été compris.
+		Navigateurs & appareils supportés (visés)
+	Étude de la concurrence.
+	Fonctionnalités envisagées.
+	Arborescence structurelle.
+	Ce qu'il reste à établir.
+	Questions subséquentes.
+
+Stratégie & UX (5%) / Semaine 4
+	Personas
+	Cas d'utilisation.
+		Parcours usager.
+
+Exploration artistique (5%) / Semaine 5
+	Exemples d'interfaces inspirantes
+	Moodboard
+	Propositions (palettes de couleur & typographie)
+		Tests d'agencement 
+
+Langage graphique (5%) / Semaine 6
+	Expérimentation avec le langage graphique
+		Plusieurs exemples de
+			paragraphes
+			listes
+			jeux typographiques
+			jeux chromatiques
+			essais de composantes
+			éléments interactifs et leurs états
+
+Réception de vrai contenu
+
+
+Exploration interface — présentoir interactif (5%) / Semaine 7
+	Grille
+	Adaptation
+	Fonctionnalités
+		Filtres
+		Tri
+
+Maquette codée - présentoir interactif (TP1) / Semaine 8
+	Possibilité d'interagir avec les fonctionnalités
+
+Ajustements (TP1+)
+
+Exploration interface — fiche de produit (5%) / Semaine 9
+	Composition
+	Interactivité & fonctionnalités
+		Commentaires ? Notes ?
+		Galerie ou zoom sur image
+		Favori/Starred ?
+
+Maquette codée — fiche de produit (TP2) / Semaine 10
+	Possibilité d'interagir avec les fonctionnalités
+
+Ajustements (TP2+)
+
+Exploration interface — profil & historique (5%) / Semaine 11
+	Composition
+	Accès
+	Liste de contenus
+
+Maquette codée — profil & historique (TP3) / Semaine 12
+
+Ajustements (TP3+)
+
+Exploration interface — Accueil / Semaine 13
+	Scénarisation
+	Proposition de valeur
+	Accès rapide
+	Produits vedettes
+	Ventes en cours
+
+Maquette codée — Accueil (TP4) / Semaine 14
+
+Ajustements (TP4+)
+
+Livrable final (TP5) / Semaine 15 (POST-MORTEM)
+	Regrouper
+	Tester 
+		Performance
+		Utilisabilité
+		Référencement
+	Optimiser
+		Interface
+		Images & medias
+		Code CSS & HTML
+	Valider
+		HTML
+		CSS
+		Accessibilité
+
+Évaluation par un pair (TP5+)
+	Critique
+	Suggestions
+
+
+
+Login
+Profil
+	Historique
+	Informations personnelles
+Fiche
+	Composante de visualisation
+	Information
+		Date
+		Couleur
+		Pays
+		Condition
+		Tirage
+	Prix plancher
+	Prix actuel
+	Date de début/fin
+	Miser
+		Limite
+	Enchères populaires
+	Coups de cœur
+Qui est Lord Stempy ?
+Filtre (on exclue)
+	Année
+	Pays
+	Prix
+		fourchette
+	
+Tri (on ordonne)
+	Année
+	Prix
+	etc.
+
+
+## Images de timbres
+
+https://www.dreamstime.com/photos-images/postage-stamp.html
+https://pixabay.com/images/search/postage%20stamp/
+
+https://shft.cl/adjsz7it
+https://shft.cl/q8jwz7jl
+https://shft.cl/6y80t758
+https://shft.cl/2dk0z7id
+https://shft.cl/gl2p0l7w2
+https://shft.cl/ne2p8l7ql
+https://shft.cl/vu8kt7ve
+https://shft.cl/xr88t7uz
+https://shft.cl/8r2pgl7f6
+https://shft.cl/242pkl7qd
+https://shft.cl/1a2psl7u2
+https://shft.cl/rj2pol7hg
+https://shft.cl/ay90t77e
+https://shft.cl/unksz7q0
+https://shft.cl/w32q8l7mr
+https://upload.wikimedia.org/wikipedia/commons/a/a5/1884_stamp_Stelland.jpg
+https://upload.wikimedia.org/wikipedia/commons/8/85/Ecuador_Seebeck.jpg
+https://upload.wikimedia.org/wikipedia/commons/8/8d/Juan_Montalvo_1899_Ecuador_stamp.jpg
+https://upload.wikimedia.org/wikipedia/commons/7/7d/Five_shilling_stamp_of_the_Leeward_Islands.jpg
+https://upload.wikimedia.org/wikipedia/commons/4/45/1858ca_6d_Victoria_Yv14_Mi12_SG73.jpg
+https://www.mysticstamp.com/Products/United-States/1/USA/

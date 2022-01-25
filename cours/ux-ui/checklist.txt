@@ -1,0 +1,9 @@
+- Images (compression, dimensions)
+- Validation HTML
+- Validation CSS
+- Lighthouse (viser 100 pour les 4 facteurs)
+- Network (Vérifier la temps de chargement. Cibler les fichiers problématiques)
+- Performance (Facteurs de rendement « Core Web Vitals », défilement de page)
+- Wave (Accessibilité)
+
+N'hésitez pas à produire des rapports « avant et après ». C'est très pertinent !
