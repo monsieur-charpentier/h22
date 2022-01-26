@@ -1,5 +1,0 @@
-# Séance #15 — Références
-
-- [W3C - Module de positionnement CSS](https://www.w3.org/TR/css-position-3/)
-- [MDN - Propriété « position »](https://developer.mozilla.org/fr/docs/Web/CSS/position)
-- [Introduction au positionnement](https://developer.mozilla.org/fr/docs/Apprendre/CSS/CSS_layout/Le_positionnement)

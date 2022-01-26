@@ -1,5 +1,0 @@
-# Appliquer une feuille de styles à une page HTML
-
-Démo exercice #06
-Matière du plan en démo
-Énoncé exercice #07

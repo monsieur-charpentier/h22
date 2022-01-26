@@ -1,5 +1,0 @@
-# Séance #01 — Références
-
-- [Glossaire MDN](https://developer.mozilla.org/fr/docs/Glossaire)
-- [Comprendre les URL et leur structure](https://developer.mozilla.org/fr/docs/Apprendre/Comprendre_les_URL)
-- [Visual Studio Code — Tips & Tricks (anglais seulement)](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)

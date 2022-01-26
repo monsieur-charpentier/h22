@@ -1,8 +1,0 @@
-# Exercice #10 — Art contemporain et modèle de boîte
-
-1. Assurez-vous de la résolution de votre écran.
-2. Prenez connaissance du fichier `reference-1920.png` ou  `reference-1280.png` étant le plus près de l'actuelle résolution de votre écran. Ce fichier contient l'œuvre d'art contemporain à reproduire.
-3. La structure HTML vous est fournie dans le fichier `index.html` et une base CSS vous est suggérée dans le fichier `main.css`.
-4. Pour arriver au résultat final, n'utilisez seulement que les propriétés CSS de boîte _(width, height, padding, border, margin, border-box & display)_
-5. Seuls des multiples de dix (10) sont utilisés comme mesures d'espacement et des multiples de cent (100) seulement pour les dimensions.
-6. Essayez d'utiliser le moins de propriétés possible.

@@ -1,5 +1,0 @@
-# Les navigateurs, l'accessibilité et les outils de développement
-
-Démo exercice 3
-Matière du plan de cours
-Énoncé exercice 4

@@ -1,6 +1,0 @@
-# Séance #14 — Références
-
-+ [Le modèle de boîte](https://developer.mozilla.org/fr/docs/Apprendre/CSS/Building_blocks/Le_modele_de_boite)
-+ [Référence des propriétés du modèle de boîte](https://developer.mozilla.org/fr/docs/Web/CSS/Mod%C3%A8le_de_bo%C3%AEte_CSS)
-+ [Fusion des marges](https://developer.mozilla.org/fr/docs/Web/CSS/Mod%C3%A8le_de_bo%C3%AEte_CSS/Fusion_des_marges)
-+ [CSS Box Model — Working Draft (anglais seulement)](https://www.w3.org/TR/css-box-3/)
