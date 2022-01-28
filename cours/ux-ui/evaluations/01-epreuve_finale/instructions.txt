@@ -26,6 +26,6 @@ La phase de conception tire à sa fin et vous devez maintenant recueillir tout l
 
 ## Remise
 
-La remise des travaux se fera sur Léa le [date] avant [heure]. Aucun retard ne sera toléré, un travail remis après [heure] sera considéré avec un jour de retard.
+La remise des travaux se fera sur Léa le jeudi 21 avril avant 09h10. Aucun retard ne sera toléré, un travail remis après 9h10 sera considéré avec un jour de retard.
 
 Politique sur les retards : Un travail en retard sera pénalisé de 5 % de la note maximale pour chaque jour de retard, et ce jusqu’à concurrence de 25 %. Aucun travail ne sera accepté au-delà de 5 jours de retard.
