@@ -1,0 +1,105 @@
+- CSS : Créez une classe commune dans le cas où plusieurs éléments se partagent les même styles.
+- CSS : assurez-vous de n'écrire que les propriétés absolument nécessaires.
+- CSS : attention aux calculs inutiles.
+- CSS : attention aux sélecteurs trop complexes. ils peuvent généralement être simplifiés.
+- CSS : attention à la validité !
+- CSS : attention à vos sélecteurs, ils pourraient s'avérer trop larges dans des projets plus complexes.
+- CSS : beaucoup de règles. Nous aurions pu faire autant avec moins.
+- CSS : pourquoi des fichiers supplémentaires pour chaque page ?
+- CSS : ne répétez pas les mêmes propriétés déjà assignées dans vos requêtes média.
+- CSS : utilisez l'héritage pour vos propriétés typographiques.
+- CSS : vous répétez trop de règles de fichier en fichier. Il faut absolument minimiser cette répétition. C'est un impair assez grave.
+- CSS : vous répétez trop de règles. Créez une classe commune dans ce cas.
+- CSS : évitez d'utiliser des « chiffres magiques » .
+- CSS : évitez de masquer les barres de défilement sur HTML et body. Il s'agit là d'un raccourci qui peut jouer des tours. Assurez-vous de ne pas avoir de barre de défilement à la place.
+- CSS : évitez les chiffres dans les noms de classe. Toujours à proscrire. Demandez-vous pourquoi vous devez donner une classe à cet élément.
+- CSS : évitez les grands padding. Ça dénote probablement un problème de composition.
+- CSS : évitez les sélecteurs #identifiant et préférez les sélecteurs d'attribut. La spécifité des #identifiant est trop grande !
+- CSS : évitez tant que possible de donner des dimensions spécifiques sur les deux axes. Surtout height qui empêchera votre contenu de s'agrandir au besoin. Préférez min-height à la place.
+
+- Communication graphique : Le texte dans les titres est trop long pour être aussi gros.
+- Communication graphique : alignements erratiques.
+- Communication graphique : alignements différents trop nombreux ou à revoir.
+- Communication graphique : attention à l'affordance (le fait de donner une forme s'apparentant au réel à nos éléments numériques).
+- Communication graphique : contraste insuffisant.
+- Communication graphique : attention aux dégagement trop larges sur mobile. Cela empêche d'occuper un espace important pour le contenu.
+- Communication graphique : attention à la qualité des images. Mieux vaut pas d'image qu'une image pixellisée / floue.
+- Communication graphique : champs de formulaire trop étroits.
+- Communication graphique : hiérarchie typographique à raffiner.
+- Communication graphique : dégagement inexistant sur les côtés du contenu dans une fenêtre étroite.
+- Communication graphique : dégagement insuffisant sur les côtés de la masse de couleur blanche.
+- Communication graphique : dégagement les éléments graphiques des bords/frontières.
+- Communication graphique : dégagement nécessaire au bas de vos pages.
+- Communication graphique : l'espace pourrait être mieux occupé.
+- Communication graphique : le formulaire est difficile à apprécier de par les alignements erratiques de ses champs.
+- Communication graphique : le texte sur des images est souvent difficile à lire. À utiliser avec parcimonie et délicatesse.
+- Communication graphique : les alignements centrés et à la gauche ont besoin d'être bien dégagés l'un de l'autre pour bien vivre ensemble.
+- Communication graphique : les boutons de formulaires auraient dû inclure un dégagement pour éviter que le texte ne soit collé sur les bords.
+- Communication graphique : les champs de formulaire auraient dû être stylisés.
+- Communication graphique : les colonnes de contenu sont trop étroites pour la quantité de contenu à l'intérieur. Ça donne de loooooongues colonnes aux proportions étranges.
+- Communication graphique : lisibilité inadéquate du texte.
+- Communication graphique : manque de rythme en version mobile.
+- Communication graphique : paragraphes trop larges sur fenêtre large. Nuit à la lisibilité !
+- Communication graphique : rythme erratique.
+- Communication graphique : rythme inadéquat qui ne permet pas de bien distinguer les morceaux de contenus les uns des autres.
+- Communication graphique : rythme manquant de variations.
+- Communication graphique : rythme trop serré.
+- Communication graphique : rythme un peu trop lâche.
+- Communication graphique : votre grille flex aurait dû être adaptée.
+- Communication graphique : votre interlignage m'apparaît un brin trop serré.
+- Communication graphique : attention aux ombrages. C'est rarement esthétique.
+- Communication graphique : évitez d'utiliser word-spacing. Les polices doivent, 99% du temps, garder le même spacing. Elles sont faites ainsi.
+- Communication graphique : évitez le texte centré quand il s'agit de paragraphes de plus de quelques lignes. Difficile à lire.
+- Communication graphique : évitez le texte justifié. Ça crée des rivières.
+- Communication graphique : évitez les barres de défilement inopportunes.
+- Expérience : évitez en général d'apposer des styles interactifs sur les éléments non-interactifs. C'est confondant.
+- Hygiène : attention où vous insérez vos règles CSS. Elles doivent respecter les sections logiques que vous vous êtes faites.
+- Hygiène : attention à l'indentation.
+- Hygiène : ne pas laisser d'attributs vides qui ne devrait pas l'être.
+- Hygiène : nommez vos sections CSS au lieu de simplement les séparer.
+- Hygiène : soyez constant.e dans votre usage des lignes vides ou des retours de chariots.
+- Hygiène : vos ressources ne s'affichent pas à cause d'un chemin absolu. Attention ! Je l'ai mentionné souvent !
+- Hygiène : vous avez laissé du code commenté. À éviter.
+- Méthode : attention aux fautes de français !
+- Méthode : attention de ne jamais utiliser de caractères spéciaux dans vos noms de fichiers ! Ça cause toujours des problèmes.
+- Méthode : attention de ne pas déformer les images !
+- Méthode : attention de ne pas intégrer des fichiers inexistants.
+- Méthode : attention à l'accessibilité !
+- Méthode : essayez de garder la même nomenclature, les mêmes conventions dans vos classes.
+- Méthode : il est à éviter d'utiliser des balises vides pour créer des espaces.
+- Méthode : l'inclusion de la police empêche le CSS d'être interprété.
+- Méthode : pourquoi un fichier pour une seule règle seulement ?
+- Méthode : votre CSS est pas mal pêle-mêle. Une meilleure organisation plus logique et cohérente aurait facilité la lecture du code.
+- Méthode : vous avez trop de classes que vous ne semblez pas utiliser. Ne pas les mettre dans votre HTML dans ce cas. Ce n'est que du bruit.
+- Méthode : vous ne devriez pas insérer les pages HTML dans le dossiers assets. Il ne sert que pour les ressources externes.
+- Méthode : vous ne devriez pas retirer les liens actifs de la navigation. Seulement en désactiver le clic.
+- Méthode : utiliser des contenus différents les uns des autres dans vos maquettes.
+- Méthode : éviter le plus possible le texte dans les images.
+- Méthode : évitez d'insérer du texte « tout nu » dans vos div.
+- Organisation : il n'y a aucune structure de dossiers pour le contenu et le css. Attention, c'est important !
+- Organisation : pourquoi un index et un accueil ? Ce devrait normalement être la même page.
+- Organisation : vous devriez rapatrier votre CSS dans le même dossier, à la racine de votre projet plutôt que de faire un dossier supplémentaire pour chacune des pages.
+- Structure : lourdeur et imbrication superflue. Toujours faire avec le moins possible de niveaux d'imbrication.
+- Structure : plusieurs niveaux de balises qu'on ne croirait pas nécessaires.
+- Structure : si vous utilisez des sous-dossiers, vos fichiers HTML devraient être des index.
+- Structure : trop de div imbriqués. Ils ne sont pas nécessaires pour arriver au résultat voulu.
+- Sémantique : certaines balises inadéquates.
+- Sémantique : des sections auraient été plus avisées que les articles.
+- Sémantique : donnez des noms sensés à vos classes.
+- Sémantique : la liste n'est pas adaptée aux formulaires. Je déconseillerais de l'utiliser.
+- Sémantique : les balises div sont plus indiquées que les span lorsqu'on enveloppe du contenu image ou vidéo.
+- Sémantique : les listes ne sont pas adaptées aux paragraphes.
+- Sémantique : pourquoi avoir envelopper les boutons dans un formulaire ? C'est inutile.
+- Sémantique : pourquoi une balise nav dans une autre balise nav ?
+- Sémantique : trop de div alors que plusieurs auraient pu être des section.
+- Sémantique : votre entête aurait dû être exclu de la balise main qui enveloppe le contenu principal de la page.
+- Technique : attention de ne pas surqualifier vos sélecteurs pour rien. Des fois, ça peut donner de l'information pertinente mais généralement, évitons-le.
+- Technique : attention à vos effets de survol. Ils ne devraient pas, 80% du temps, modifier les dimensions de vos éléments. Ça crée des dissonances visuelles.
+- Technique : il faut privilégier la cohérence dans l'usage de vos sélecteurs.
+- Technique : le survol est trop difficle à déclencher.
+- Technique : les fichiers CSS et leur nom devraient restreindre les sélecteurs à l'intérieur. On ne devrait sélectionner que ce qui est en lien avec le fichier.
+- Technique : les éléments de votre grille sont très petits. Difficile de dire si c'est voulu ou non. Il s'agit d'un problème autant graphique que technique.
+- Technique : n'insérez que les feuilles de style dont vous avez réellement besoin dans une page.
+- Technique : ne pas écrire en MAJUSCULE dans le HTML. Une propriété CSS existe pour ça.
+- Technique : pourquoi avoir utilisé à la fois une classe et une balise comme sélecteur alors qu'il s'agit du même élément ? Faut privilégier la cohérence.
+
