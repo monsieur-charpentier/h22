@@ -1,0 +1,16 @@
+# Séance #05 — Références
+
++ [Color Psychology (anglais)](https://en.wikipedia.org/wiki/Color_psychology)
++ [How to Choose Fonts (anglais)](https://graphilio.com/how-to-choose-fonts/)
++ [The Step-by-Step Guide for Pairing Fonts (anglais)](https://learnui.design/blog/guide-pairing-fonts.html)
++ [Modern CSS Techniques To Improve Legibility](https://www.smashingmagazine.com/2020/07/css-techniques-legibility/)
++ [Design Principles for the Web](https://adactio.com/journal/17310)
++ [Practical Typography](https://practicaltypography.com/)
++ [Fontjoy](https://fontjoy.com/)
++ [Gestalt Principles (anglais)](https://www.interaction-design.org/literature/topics/gestalt-principles)
+- [Gestalt principles in UI design (anglais seulement)](https://medium.muz.li/gestalt-principles-in-ui-design-6b75a41e9965)
+- [Définition théorie de la gestalt ou lois de la gestalt](https://www.usabilis.com/definition-theorie-de-gestalt/)
+* [The principle of Common Region (anglais seulement)](https://www.nngroup.com/articles/common-region/)
+* [Similarity principle in visual design (anglais seulement)](https://www.nngroup.com/articles/gestalt-similarity/)
+* [Proximity principle in Visual Design (anglais seulement)](https://www.nngroup.com/articles/gestalt-proximity/)
+

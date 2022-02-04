@@ -1,0 +1,78 @@
+# Évaluer une maquette (appréciation technique)
+
+## Pourquoi évaluer ?
+
+- Puis-je commencer le travail sans crainte d'être stoppé ?
+- Combien de temps ça peut me prendre ?
+- Y a-t-il des enjeux, risques et/ou incertitudes ?
+- Est-ce que le tout est complet ?
+
+## Comment produire un document d'appréciation technique d'une maquette (Considérations en vrac)
+
+- Découpage des régions et composantes
+    - Nommer les composantes et leurs parties
+- Inventaire (survol) des niveaux de lecture, des couleurs et espacements
+- Écrire les réponses aux questions à se poser.
+- Poser les questions pour lesquelles nous n'avons pas de réponse
+- Suggérer des ajustements & optimisations S'il y a lieu.
++ Ce qui doit être inclus (ou traité) dans un appréciation technique d'une maquette.
+    - Le contenu texte
+        - Réel ou Lorem Ipsum ?
+    - Langage graphique
+        - Est-il fourni ?
+        - Est-il complet ?
+        - Quelle est la palette de couleur ?
+            - Combien de couleurs contient-elle ? 
+            - Comment pourrais-je les nommer ?
+            - Y a-t-il des couleurs superflues ? Pourrait-on en unifier certaines ?
+    - Animations & interactions
+        - Les effets interactifs sont-il conçus ?
+            - Est-ce que les liens ont tous leurs styles (hover, focus, active et visited) ?
+                + Est-ce que les champs de formulaire présentent tous leurs états (focus, erreur, vide, rempli, valide, désactivé, etc.)
+                + Y a-t-il des champs requis dans les formulaires ? Si oui, leur style est-il clair ?
+                + Si non, suis-je à l'aise de les créer ? Dois-je demander au concepteur de les faire ?
+                + Ai-je accès aux transitions ? Y a-t-il pour chacune un exemple ?
+        - Y a-t-il des fonctionnalités qui demanderaient des styles absents des maquettes ?
+            + Erreurs & confirmation de formulaire, état d'activation, menu déroulant, etc. 
+    - Combien de compositions y a-t-il ?
+        - Article, Fiche, Vitrine, etc.
+    - Quelles sont les composantes ?
+        - Dois-je proposer d'unifier des disparités ?
+            - Est-ce que les boutons sont cohérents d'une page à l'autre ?
+            - Le rythme et la typographie sont-ils constants ? Y a-t-il des espacements ou des niveaux de lecture « hors zone » ?
+        - Comment devrais-je nommer les composantes présentes ?
+            - Court, explicite, unique, représentatif
+        - Comment s'adapteront-elles ?
+        - Combien y en a-t-il ?
+        - Est-ce que je prévois des difficultés ? Si oui, quel genre ?
+            - Adaptation, nombres de cas à tester, etc.
+    - Est-ce que la quantité de ressources externes (images, polices, vidéos, etc.) est satisfaisante ?
+        - Pourrait-il y avoir des problèmes de poids ?
+            - À combien de kb/mb estime-t-on la quantité d'images (page par page) ?
+            - À combien de kb/mb estime-t-on le poids des polices ?
+                - Regarder sur Google Fonts / Demander au concepteur.
+                - Avons-nous des alternatives dans le cas où le poids serait trop grand ?
+    - Manque-t-il des contenus ou des informations ?
+        - Les libellés des champs de formulaires sont-ils présents ?
+    - Comment envisageons-nous le fonctionnement des fonctionnalités présentées ?
+    - Avons-nous des variantes de maquettes pour chacun des types d'appareil
+        - Téléphone, Tablette, Portable, Ordinateur de table...
+        - Si non, quels sont absents ?
+            - Suis-je à l'aise de combler les trous ?
+            - Devrais-je demander au concepteur de produire une autre maquette ?
+        - Quel genre de composition(s) voyons-nous ?
+            - Est-ce que le site peut prendre l'entièreté de la fenêtre ou devra-t-on limiter la largeur ?
+            - Si la largeur devrait être limitée, quelle devrait-elle être environ ?
+                - Quelle serait la couleur d'arrière-plan dans l'espace laissé vacant ?
+    - Est-ce que la maquette semble accessible ?
+        - Les couleurs du texte sont-elles assez contrastées ?
+        - Les tailles de texte sont elles lisibles ?
+        - Les formulaires semblent-ils contenir des libellés pour chacun de leurs champs ?
+    - Quelles sont les régions principales (navigation, entête, contenu, pied de page)
+        - Comment sont-elles représentées ?
+        - Comment pourrais-je les découper ?
+        - Est-ce que l'entête contient un titre (h1) clair ?
+    - Y a-t-il des problèmes de l'ordre de la communication graphique ?
+        - Hiérarchie, cohérence, unification, équilibre, lisibilité, etc.
+    - Combien de temps est-ce que j'estime nécessaire au développement ?
+        - Composantes, compositions, adaptations, fonctionnalités, tests, assurance qualité, révisions, etc.

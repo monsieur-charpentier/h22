@@ -1,0 +1,9 @@
+# Séance #09 — Références
+
++ [Philosophie UNIX](https://fr.wikipedia.org/wiki/Philosophie_d%27Unix)
++ [Back to Basics: Creating a clickable card interface in plain HTML, CSS and JavaScript (anglais seulement)](https://christianheilmann.com/2020/11/26/back-to-basics-creating-a-clickable-card-interface-in-plain-html-css-and-javascript/?ref=heydesigner)
++ [Storybook (anglais seulement)](https://storybook.js.org/)
++ [Pattern Lab (anglais seulement)](https://patternlab.io/)
++ [Material.io](https://material.io/)
++ [Figma — Design Systems (anglais seulement)](https://www.designsystems.com/)
++ [Design Systems Glossary (anglais seulement)](https://superfriendlydesign.systems/glossary/)

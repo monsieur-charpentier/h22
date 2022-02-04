@@ -1,0 +1,66 @@
+# Examen pratique #01 — Planifier le développement de maquettes
+
+## Mise en contexte
+
+Un nouveau concepteur d'interface junior est ajouté à votre équipe. Il vous fournit des maquettes que vous devez évaluer afin de planifier leur développement. Il en revient à vous de le supporter grâce à une appréciation technique de son travail. Vous devrez ainsi produire un document à son attention où vous lui ferez part de ce qui est manquant et/ou problématique, où vous pourrez lui faire des suggestions d'ajustements, et surtout, où vous décomposerez son interface en composantes autonomes. Finalement, dans le même document vous devrez fournir à l'équipe un estimé des heures de développement nécessaires pour intégrer ce que vous voyez dans les maquettes.
+
+## Instructions
+
+1. Prenez connaissance des maquettes dans le dossier du même nom.
+2. Créez un document texte intitulé « planification.txt ».
+3. Référez-vous au document « planifier-le-developpement.html ».
+4. Passez à travers la liste de questions et tentez de répondre à chacune d'entre elles qui vous semblent pertinentes à notre cas.
+5. Capturez les régions, éléments et composantes nécessaires à l'évaluation du développement.
+6. Nommez les images capturées de manière cohérente, logique et explicite.
+6. Inscrivez dans votre document « planification.txt » les réponses trouvées et les questions pertinentes mais qui demeurent sans réponse.
+7. Faites des suggestions lorsque pertinent (p. ex. problèmes de communication graphique, d'accessibilité ou d'ergonomie).
+8. Joignez les images capturées à votre document et référez à celles-ci par leur nom de fichier lorsque nécessaire.
+9. Compressez les images et votre document « planification.txt » puis déposez le tout sur Léa.
+
+_Un boni de 10% (1 point sur 10) sera ajouté aux dépôts ayant fait usage du langage « Markdown » pour produire un fichier HTML compilé ayant inclus les images jointes à même le document lorsque pertinent._
+
+## Critères d'évaluation
+
+### Appréciation technique  / 2
+
+- Les réponses pouvant être trouvées sont fournies au concepteur.
+- Les questions pertinentes sont posées au concepteur.
+
+
+### Extraction du langage graphique / 1
+
+- Toutes les couleurs sont énumérées.
+- Les éléments manquants du langage sont ciblés et demandés au concepteur.
+
+### Identification des composantes et régions / 3
+
+- Toutes les régions et composantes ont été identifiées avec justesse.
+- Le nom de chacune des composantes est évocateur, court et unique.
+- Les états manquants ont été décelés.
+
+### Feuille de route  / 1
+
+- Un ordre de priorité a été établi, une stratégie d'adaptation a été adoptée. 
+- L'ordre et la stratégie sont cohérents et justifiés dans le texte.
+
+### Estimé des heures requises  / 1
+
+- L'estimé est bien divisé, clair et exhaustif.
+
+### Appréciation générale  / 2
+
+- Présence et qualité satisfaisante de tous les éléments demandés.
+- Le document est propre, textuel et les images sont accessibles.
+- Lorsque nécessaire des suggestions pertinentes d'ajustement ont été formulées.
+
+### Boni  / 1
+
+- Un fichier HTML produit à l'aide de Markdown est joint. Les images y ont été intégrées.
+
+### Total  / 10
+
+## Remise
+
+La remise des travaux se fera sur Léa le [date] avant [heure]. Aucun retard ne sera toléré, un travail remis après [heure] sera considéré avec un jour de retard.
+
+Politique sur les retards : Un travail en retard sera pénalisé de 5 % de la note maximale pour chaque jour de retard, et ce jusqu’à concurrence de 25 %. Aucun travail ne sera accepté au-delà de 5 jours de retard.

@@ -1,0 +1,200 @@
+# Vedge : Restaurant Végane
+
+## Arborescence
+
+__L'arborescence doit être représentée dans la navigation__. Elle devrait être divisée en deux menus séparés selon la structure ci-dessous.
+
+### Menu principal
+
+- Accueil (lien sur le logo)
+- Restaurants
+    + Trois-Rivières
+    + Drummondville
+    + Val-Jalbert
+    + Dix30
+    + Toronto
+    + Berlin
+* Trouver un restaurant
+* Faire une réservation
+* Commande en ligne
+
+### Menu secondaire
+
+- Notre philosophie
+- Carières
+- Franchises
+- Presse
+- Contact
+
+
+## Scénarisation
+
+__La scénarisation est constituée de sections de contenu à ordonner selon une progression logique__. Chacune des trois (3) pages ci-dessous contient un nombre de sections à ordonner correctement.
+
+### Accueil
+
+- Vous voulez établir votre propre restaurant ?
+    + Laissez-nous vous convaincre de développer votre propre franchise « Vedge » !
+    + Contactez-nous
+
+---
+
+- Restaurants en vedette
+    + Trois-Rivières
+        * `[Image de petite taille]`
+    + Drummondville
+        * `[Image de petite taille]`
+    + Val-Jalbert
+        * `[Image de petite taille]`
+    + Dix30
+        * `[Image de petite taille]`
+    + Toronto
+        * `[Image de petite taille]`
+    + Berlin
+        * `[Image de petite taille]`
+
+---
+
+- Profitez de nos promotions
+    - Deux Mimosas pour 15$ pendant toute l’heure du brunch
+    - `[image de support]`
+    - Voir nos promotions
+
+---
+
+- Botanique et décadente
+    + `[Image de grande taille]`
+    + Savourez les meilleurs plats dans le respect total de la nature.
+
+---
+
+- Trouvez un restaurant « Vedge » près de chez vous
+    - Entrez votre ville ou votre code postal
+        + `[champ de recherche]` 
+
+---
+
+### Fiche détaillée de la franchise de Val-Jalbert
+
+- Les critiques sont dithyrambiques
+    - Absolument délicieux. Je ne suis pas végétalienne et c’était de loin l’un des meilleurs repas que j’ai pris à Val-Jalbert. Prenez le « hamburger » de la maison avec des frites de patates douces ou le « fromage grillé ». Nous étions là pour un déjeuner tardif un lundi et le service était amical et rapide. L’intérieur est également magnifique. J’adorais tout à ce sujet !  
+    — Sarah O'Maillet
+    - `[image de petite taille]`
+    - Voir toutes les critiques
+
+---
+
+- Gallerie photo
+    - `[Image de taille moyenne]`
+    -  __`Répéter les images de 3 à 6 fois`__
+    - Voir toutes les images
+
+---
+
+- Réserver pour un groupe
+    - « Vedge » Val-Jalbert peut accueillir des groupes jusqu’à 24 personnes.
+    - Menu
+        - Les groupes de 20 à 24 personnes ont accès à une carte de groupe qui réunit l’ensemble de nos meilleurs vendeurs. Chaque personne à votre table sélectionnera au minimum une entrée et un plat.
+        - Voir le menu de groupe
+    - Faites une demande de réservation de groupe
+
+---
+
+- Heures d’ouverture
+    - Lundi
+        - 11:30–22:00
+    - Mardi
+        - 11:30–22:00
+    - Mercredi
+        - 11:30–22:00
+    - Jeudi
+        - 11:30–23:00
+    - Vendredi
+        - 11:30–23:00
+    - Samedi
+        - 10:00–23:00
+    - Dimanche
+        - 10:00–22:00
+
+---
+
+- Neuf personnes et plus?
+    - Consultez notre page pour les groupes
+    - `[image de support]`
+
+---
+
+- Localisation de la franchise
+    - Vedge | Val-Jalbert 
+    - 500 rue de la Montagne
+    - Ouvrir sur Google Maps
+
+---
+
+- Réservez votre table
+    - Toutes les réservations doivent être faites via notre site web.
+    - `[image de grande taille]`
+    - Réservez maintenant
+
+---
+
+- Profitez de nos promotions
+    - Deux Mimosas pour 15$ pendant toute l’heure du brunch
+    - `[image de support]`
+
+---
+
+- Menus
+    - Régalez-vous en bonne conscience !
+        + Du lundi au vendredi, samedi et dimanche soir
+            + Menu jour et soir
+        + Samedi et dimanche de 10 h à 15 h
+            + Menu brunch
+        + Vins natures et biologiques, bières et cocktails botaniques
+            + Menu boissons
+        + Une grande sélection de plats pour manger au bureau ou à la maison
+            + Menu pour emporter
+
+---
+
+### Notre philosophie
+
+- Trouvez un restaurant « Vedge » près de chez vous
+    - Entrez votre ville ou votre code postal
+        + `[champ de recherche]` 
+
+---
+
+- Restaurants en vedette
+    - Trois-Rivières
+        + `[Image de petite taille]`
+    - Drummondville
+        + `[Image de petite taille]`
+    - Val-Jalbert
+        + `[Image de petite taille]`
+    - Dix30
+        + `[Image de petite taille]`
+    - Toronto
+        + `[Image de petite taille]`
+    - Berlin
+        + `[Image de petite taille]`
+
+---
+
+- Bon au goût, bon pour la nature.
+    - `[Image de grande taille]`
+    - Lisez le manifeste « Vedge »
+
+---
+
+- Botanique et décadent
+    - Le concept de « Vedge » s’inscrit dans la vision de l’alimentation. Il reflète notre volonté de ralentir la cadence, d’offrir des plats sains à une clientèle soucieuse de son bien-être et de l’environnement. Une clientèle hédoniste qui mange avec plaisir et de façon responsable.
+- `[Image de grande taille]`
+- Cuisine artisanale
+    - Nous connaissons chaque ingrédient qui entre dans la composition de nos recettes. Nous créons la plupart de nos recettes à partir de rien — rien que des ingrédients naturels, frais et savoureux. Voilà qui fait la vraie beauté de notre cuisine!
+- `[Image de grande taille]`
+- Écoresponsabilité
+    Amants de la nature, nous prônons le respect de la faune et de la flore. C’est pourquoi notre salle à manger et notre cuisine respectent les standards de la pensée écoresponsable.
+- `[Image de grande taille]`
+- Fournisseurs locaux
+    - Nous nous approvisionnons auprès d’artisans locaux, car nous estimons qu’une bonne cuisine dépend de la qualité de ses ingrédients. Moins nos ingrédients voyagent, plus nous pouvons offrir à nos clients des plats qui se distinguent par leur fraîcheur, leur authenticité et leur qualité. Le tout, en réduisant notre empreinte écologique et nos émissions de gaz carbonique.

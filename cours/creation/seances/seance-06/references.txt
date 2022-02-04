@@ -1,0 +1,43 @@
+# Séance #06 — Références
+
+
++ [Common Layouts (anglais seulement)](https://purecss.io/layouts/)
++ [Top Website Layouts That Never Grow Old](https://xd.adobe.com/ideas/principles/web-design/11-website-layouts-that-made-content-shine-in-2019/)
++ [Every Layout (anglais seulement)](https://every-layout.dev/layouts/)
+
+## Modèles de sites Web typiques
+
+* Réseaux sociaux
+    - [Facebook](https://www.facebook.com/)
+    - [Twitter](https://twitter.com/chriscoyier)
+    - [Instagram](https://www.instagram.com/chriscoyier/?hl=fr)
+- E-commerce
+    + [Amazon](https://www.amazon.ca/)
+    + [Wal-Mart](https://www.walmart.ca/en)
+    + [EBay](https://www.cafr.ebay.ca/)
+- Corporatifs
+    + [Sony](https://www.sony.com/)
+    + [BNC](https://www.bnc.ca/)
+    + [Bombardier](https://www.bombardier.com/fr/accueil.html)
+- Gestion de contenu & Intranets
+    + [Wordpress](https://wordpress.com/home/emma498297504.wordpress.com)
+    + [Craft](https://demo.craftcms.com/Ys8Clbtd2j/s/admin/dashboard)
+- Applications
+    + [Harvest](https://collgedemaisonneuve.harvestapp.com/time)
+    + [Discord](https://discord.com/channels/@me)
+    + [Slack](https://app.slack.com/client/TSD4YRZ7U/CSREMJP2Q)
+- Vidéo
+    + [Netflix](https://www.netflix.com/browse)
+    + [Youtube](https://www.youtube.com)
+    + [Vimeo](https://vimeo.com/259411563)
+- Présentation & Portfolio
+    + [Pentagram](https://www.pentagram.com/)
+    + [L'Éloi](http://leloi.ca/fr)
+    + [Consulat](https://byconsulat.com/fr/)
+- Éducation & connaissance
+	 + [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/)
+    + [Wikipedia](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal)
+- Informatif & journalistique
+    + [Boston Globe](https://www.bostonglobe.com/)
+    + [NY Times](https://www.nytimes.com/)
+    + [La Presse](https://www.lapresse.ca/)

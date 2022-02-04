@@ -1,0 +1,67 @@
+# TP #1 — Création d'un prototype fil de fer de 3 pages à partir d'une scénarisation
+
+À partir de la scénarisation choisie, il vous est demandé de créer un prototype « fil de fer » de trois (3) pages afin d'établir les bases de l'expérience usager d'une des plateformes qui sera développée au cours de la session. Votre prototype doit être optimisé pour une _résolution d'environ 1280px_.
+
+Chacune des pages présente un type de composition différent parmi ceux-ci :
+
+1. Vitrine (promotionnel, synthétique, multimedia)
+2. Portail (présentatif, exhaustif, entités instanciées)
+3. Article (narratif, textuel et imagé)
+4. Fiche (informatif, modulaire, information typée)
+
+Votre prototype devra au minimum comporter les composantes et fonctionnalités suivantes :
+
+1. Une navigation complète.
+2. Tout le contenu inclus dans la scénarisation choisie.
+3. Un ajout à la scénarisation de votre cru, dans la page de votre choix.
+4. Une grille de présentation d'au minimum 8 éléments.
+5. Un pied de page partagé dont vous devrez créer le contenu.
+
+Les scénarisations qui vous sont offertes ne sont pas ordonnées de manière cohérente et logique. Le contenu qui s'y trouve est pêle-mêle. __Il vous revient d'établir la priorité et la hiérarchisation du contenu.__
+
+Un argumentaire écrit des choix les plus importants devra être également fourni. Par exemple, la navigation, la priorisation des éléments, la pertinence de votre ajout, etc. __Un fichier `argumentaire.txt` doit être livré avec le prototype.__
+
+Étant donné la nature « progressive » du lot de travaux pratiques cette session-ci, 13% (2 points) de la note sera accordé pour avoir ajusté votre prototype en fonction des commentaires et recommandations de l'enseignant.
+
+Des points bonis (jusqu'à 20 %) seront accordés pour avoir produit le prototype à l'aide de code plutôt qu'à l'aide d'un logiciel de conception graphique. Les points varieront en fonction de la qualité du code.
+
+Finalement, les trois formats de fichier suivants seront acceptés comme livrables :
+
+- HTML & CSS
+- PDF
+- JPG
+
+
+## Critères d'évaluation
+
+
+### Expérience utilisateur   / 4
+
+- Respect des règles et principes de l'ergonomie
+- Hiérarchisation et priorisation logiques de la scénarisation
+
+### Communication graphique  / 3
+
+- Cohérence et uniformité du langage graphique
+- Communication graphique fonctionnelle & esthétique
+
+### Appréciation générale  / 6
+
+- Argumentation des choix les plus importants
+- Présence et qualité des éléments requis
+- Propreté et rigueur générales
+- Respect des consignes
+
+### Ajustement aux commentaires de l'enseignant  / 2
+
+### BONI !  / 3
+
+- Utilisation juste du HTML & CSS  / 3
+
+### Total :  / 15
+
+## Remise
+
+La remise des travaux se fera sur Léa le [date] avant [heure]. Aucun retard ne sera toléré, un travail remis après [heure] sera considéré avec un jour de retard.
+
+Politique sur les retards : Un travail en retard sera pénalisé de 5 % de la note maximale pour chaque jour de retard, et ce jusqu’à concurrence de 25 %. Aucun travail ne sera accepté au-delà de 5 jours de retard.

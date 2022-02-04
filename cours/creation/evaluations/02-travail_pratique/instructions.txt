@@ -1,0 +1,80 @@
+# Travail pratique #2 — Concevoir une maquette adaptée à partir d'un prototype
+
+## Mise en contexte
+
+Le département de stratégie et d'expérience utilisateur vous a rendu son premier livrable : le prototype. Vous, en tant que concepteur(s), devez prendre en charge la deuxième phase de production de la plateforme Web : la maquette. Celle-ci devra être adaptée à de multiples appareils, de multiples configurations de fenêtre et devra, aussi, respecter les intentions initiales du prototype. À ce stade-ci de la production, il est encore temps d'apporter des ajustements et de faire des propositions. Profitez-en donc pour améliorer le travail de vos collègues stratèges et concepteurs UX tout en vous assurant de bien justifier chacun des ajustements et chacune des propositions.
+
+## Instructions
+
+1. Prenez connaissance du prototype qui vous a été fourni.
+2. Lisez attentivement les justifications présentes dans le fichier « arguments ».
+3. Ajoutez ou modifiez une zone de contenu dans la scénarisation de l'accueil.
+4. Remplacez chaque pseudo-image par une image pertinente à votre sujet.
+5. Élaborez un langage graphique qui représente bien l'entreprise et son message.
+6. Appliquez le langage graphique à la composition fonctionnelle du prototype de l'accueil.
+7. Intégrez tous les styles interactifs (survol, focus, etc.).
+8. Adaptez votre maquette pour les appareils suivants :
+	- Téléphone (320px à ~500px)
+	- Tablette (~500px à ~1150px)
+	- Portable (~1150px à ~1700px)
+	- Écran large (~1700px et plus)
+9. Assurez-vous que votre maquette respecte les principes à la fois :
+	- de la communication graphique
+	- de l'expérience usager
+	- de l'accessibilité
+9. Justifiez votre ajout/modification puis vos choix au sein du langage graphique et de l'adaptation.
+10. Si vous êtes en équipe, attribuez chaque partie du travail au coéquipier l'ayant effectuée.
+
+## Notes supplémentaires
+
+__Seulement la page d'accueil est à faire pour l'instant.__ Les autres pages seront abordées lors du TP #03.
+
+Libre à vous, si le prototype fut livré en code, de le récupérer et de construire les styles sur cette base établie. Vous pouvez aussi écarter le code et repartir à zéro. Il est toutefois important, dans un cas ou dans l'autre, de justifier votre décision. Pourquoi avoir récupéré ou non le code ?
+
+Un argumentaire écrit des choix les plus importants devra être également fourni. Par exemple, la navigation, la priorisation des éléments, la pertinence de votre ajout, etc. __Un fichier `argumentaire.txt` doit être livré avec la maquette.__
+
+Étant donné la nature « progressive » du lot de travaux pratiques cette session-ci, 13% (2 points) de la note sera accordé pour avoir ajusté votre maquette en fonction des commentaires et recommandations de l'enseignant.
+
+Des points bonis (jusqu'à 20 %) seront accordés pour avoir produit la maquette à l'aide de code plutôt qu'à l'aide d'un logiciel de conception graphique. Les points varieront en fonction de la qualité du code.
+
+Finalement, les trois formats de fichier suivants seront acceptés comme livrables :
+
+- HTML & CSS
+- PDF
+- JPG
+
+Vous pouvez aussi livrer un lien vers le travail Figma ou Adobe XD.
+
+## Critères d'évaluation
+
+### Expérience utilisateur  / 3
+
+- Respect des règles et principes de l'ergonomie
+- Respect de l'accessibilité
+- Adaptation complète et efficace
+
+### Communication graphique   / 4
+
+- Cohérence et uniformité du langage graphique
+- Communication graphique fonctionnelle & esthétique
+
+### Appréciation générale  / 6
+
+- Argumentation des choix les plus importants
+- Présence et qualité des éléments requis
+- Propreté et rigueur générales
+- Respect des consignes
+
+### Ajustement aux commentaires de l'enseignant  / 2
+
+### BONI !  / 3
+- Utilisation juste du HTML & CSS
+- Adaptation fonctionnelle pour toute résolution
+
+### Total  / 15
+
+## Remise
+
+La remise des travaux se fera sur Léa le [date] avant [heure]. Aucun retard ne sera toléré, un travail remis après [heure] sera considéré avec un jour de retard.
+
+Politique sur les retards : Un travail en retard sera pénalisé de 5 % de la note maximale pour chaque jour de retard, et ce jusqu’à concurrence de 25 %. Aucun travail ne sera accepté au-delà de 5 jours de retard.

@@ -1,0 +1,8 @@
+# Séance #18 — Références
+
+- [MDN — Grilles CSS](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout)
+- [MDN — La mise en page avec les grilles](https://developer.mozilla.org/fr/docs/Learn/CSS/CSS_layout/Grids)
+- [A Complete Guide to Grid (anglais seulement)](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Grid by Example (anglais seulement)](https://gridbyexample.com/)
+- [Learn CSS Grid (anglais seulement)](https://learncssgrid.com/)
+- [LayoutIt (anglais seulement)](https://grid.layoutit.com/)

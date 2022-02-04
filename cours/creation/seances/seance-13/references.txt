@@ -1,0 +1,9 @@
+# Séance #13 — Références
+
++ [CUBE CSS](https://piccalil.li/cube-css/)
++ [Build a dashboard with CUBE CSS](https://piccalil.li/tutorial/build-a-dashboard-with-cube-css/)
++ [BEM Methodology (anglais seulement)](https://en.bem.info/methodology/)
++ [SMACSS — Scalable and Modular Architecture for CSS (anglais seulement)](http://smacss.com/book/)
++ [ITCSS — The Inverted Triangle (anglais seulement)](https://other.media/itcss-the-inverted-triangle-css-the-right-way-up/)
++ [Let’s Define Exactly What Atomic CSS is (anglais seulement)](https://css-tricks.com/lets-define-exactly-atomic-css/)
++ [CSS Guidelines (anglais seulement)](https://cssguidelin.es/)

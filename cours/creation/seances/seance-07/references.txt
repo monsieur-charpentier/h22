@@ -1,0 +1,6 @@
+# Séance #07 — Références
+
+- [Ten Usability Heuristics for User Interface Design (anglais seulement)](https://www.nngroup.com/articles/ten-usability-heuristics/)
+- [Keith Instone (anglais seulement)](http://instone.org/heuristics)
+- [Les 12 règles d'Amélie Boucher](https://ergonomiesite.wordpress.com/regles-damelie-boucher/)
+- [Les critères ergonomiques de Bastien & Scapin (partie 1)](http://www.ergolab.net/articles/criteres-ergonomiques-1.php)

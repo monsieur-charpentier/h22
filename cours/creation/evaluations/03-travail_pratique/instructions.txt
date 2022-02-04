@@ -1,0 +1,62 @@
+# Travail pratique #03 — Optimiser et décliner une maquette HTML+CSS
+
+## Instructions
+
+1. Quatre (4) projets vous sont proposés.
+2. Consultez les maquettes et leur code ainsi que le prototype initial.
+3. Choisissez un projet qui vous plaise (code & esthétique).
+4. Analysez le code existant puis optimisez-le.
+5. Évaluez la maquette et ses adaptations puis optimisez-la.
+5. Déclinez la maquette et le code optimisés de l'accueil **sur les deux pages restantes du prototype**.
+6. Assurez-vous de produire une base de code cohérente et uniforme.
+7. Assurez-vous de produire des pages qui sont cohérentes et uniformes.
+8. Vérifiez que vos pages soient bien affichées *dans toutes* les résolutions (de 320px à 1920px).
+8. Validez le HTML et l'accessibilité de vos pages.
+9. Organisez et commentez votre code CSS.
+10. Argumentez vos décisions, optimisations et modifications les plus importantes dans un fichier « argumentaire.txt ».
+11. Si vous êtes en équipe, attribuez chaque partie du travail au coéquipier l'ayant effectuée.
+12. Livrez le site complet sur Léa.
+
+## Notes supplémentaires
+
+- Vous ne pouvez pas continuer votre propre maquette. 
+- La maquette que vous recevrez n'est pas parfaite. Perfectionnez-la (dans toutes les résolutions) avant de la décliner.
+- Il en va de même pour le code ! Assurez-vous de le parfaire avant de le réutiliser.
+- Les équipes de deux ou trois sont permises. Libre à vous de choisir un/des partenaire(s) ou de faire cavalier seul.
+
+## Critères d'évaluation
+
+### Expérience utilisateur  / 4
+
+- Les pages s'affichent correctement dans toutes les résolutions
+- Respect des règles et principes de l'ergonomie
+- Expérience utilisateur généralement adéquate
+- Respect de l'accessibilité
+
+### Communication graphique  / 2
+
+- Le langage graphique est bien appliqué à travers les pages
+- L'esthétique est agréable et harmonieuse
+
+## Méthode de travail  / 6
+
+- La base de code est cohérente et uniforme
+- Le code CSS est bien organisé et les intentions sont claires
+- Des composantes logiques sont établies et bien réutilisées
+- Le langage CSS est généralement bien utilisé
+
+### Appréciation générale  / 8
+
+- Des correctifs et/ou ajustements pertinents ont été apportés
+- Un argumentaire pertinent accompagne le travail
+- Raffinement et rigueur générales
+- Respect des consignes
+
+### Total  / 20
+
+## Remise
+
+La remise des travaux se fera sur Léa le [date] avant [heure]. Aucun retard ne sera toléré, un travail remis après [heure] sera considéré avec un jour de retard.
+
+Politique sur les retards : Un travail en retard sera pénalisé de 5 % 
+

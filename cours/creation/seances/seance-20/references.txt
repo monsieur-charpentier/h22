@@ -1,0 +1,4 @@
+# Séance 20 — Références
+
+- [Wiki Préprocesseurs CSS](https://fr.wikipedia.org/wiki/Pr%C3%A9processeur_CSS)
+- [SASS — Documentation (anglais seulement)](https://sass-lang.com/)

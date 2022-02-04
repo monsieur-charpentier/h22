@@ -1,0 +1,171 @@
+# Le zoo forestier de Val-Jalbert
+
+## Arborescence
+
+__L'arborescence doit être représentée dans la navigation__. Elle devrait être divisée en deux menus séparés selon la structure ci-dessous.
+
+### Menu principal
+
+- Accueil (lien sur le logo)
+- Informations
+- Activités et événements
+- Le monde du Zoo forestier 
+- Préserver la faune sournoise
+    - Parrainez un animal
+    - Notre programme éducatif
+    - Nos initiatives de libération
+- Achetez vos billets
+
+### Menu secondaire
+
+- Services aux écoles
+- Faire un don
+    + Don unique
+    + Don mensuel
+    + Autres méthodes
+- A propos
+    - Equipe
+    - Partenaires
+    - Carrières
+
+## Scénarisation
+
+__La scénarisation est constituée de sections de contenu à ordonner selon une progression logique__. Chacune des trois (3) pages ci-dessous contient un nombre de sections à ordonner correctement.
+
+### Accueil
+
+- Devenez membre et économisez !
+    - Obtenez un accès privilégié et illimité pour 20 $ par année.
+    - Devenez membre !
+
+---
+
+- Apprenez-en plus sur le zoo et Val-Jalbert !
+    + Article
+        + Un village plein d'histoires !
+        + `[image de support]`
+    + Animal
+        * Le cougar, typiquement québécois !
+        * `[image de support]`
+    + Promotion
+        * Devenez membre et recevez un écusson de votre choix !
+        * `[image de support]`
+
+---
+
+- À seulement 6 heures de Montréal et 30 minutes de Chicoutimi !  
+    - `[image de grande taille]`
+- Le seul Zoo en forêt du Québec. Venez voir nos lynx et carcajous en liberté !  
+    - `[image de grande taille]`
+
+--- 
+
+- Le Zoo de Val-Jalbert met en vedette les animaux québécois les plus sournois et ce, dans un décor forestier enchanteur. 
+    - Venez vous promener librement au milieu des lynx, carcajous et ours bruns.
+    - Voir nos activités familiales
+
+--- 
+
+- Aidez-nous à préserver la faune québécoise et sournoise !
+    - Contribuez à l'essor de l'ours noir
+    - Participez à notre programme de survie solitaire
+    - Découvrez nos initiatives de protection du caribou
+- `[image de support]`
+
+---
+
+### Portail des animaux
+
+- Tous les animaux
+    - Nom de l’animal
+        - Résumé afin d’aider le lecteur à déterminer rapidement le sujet.
+        - Voir l'animal
+    - __`Répéter entre 8 à 12 fois`__
+
+---
+
+- Filtrer par type d'animal
+    + Amphibien
+    + Oiseau
+    + Canin
+    + Félin
+    + Mustélidé
+
+---
+
+- Parrainez un cougar
+    - Chaque parrainage permet à un cougar de retouver sa liberté dans nos forêts québécoises.
+    - Voir nos modèles de parrainage
+
+---
+
+- Découvrez tous les animaux auxquels vous aurez accès en vous baladant dans notre zoo en forêt.
+- `[image de grande taille]`
+
+---
+
+- Animaux en vedette
+    + Le carcajou
+        + Le Glouton ou Carcajou, est un mammifère au régime alimentaire omnivore à dominance carnivore.
+        + Découvrez le carcajou
+    + L'ours noir
+        + L'Ours noir, aussi appelé baribal, est l'ours le plus commun en Amérique du Nord. 
+        + Découvrez l'ours noir
+    + Le lynx
+        + Les lynx sont aisément reconnaissables à leur face ornée de favoris.
+        + Découvrez le lynx
+
+---
+
+### Fiche de détail d'un animal
+
+- Visitez nos cougars !
+    + Achetez vos billets
+    + `[image de support]`
+
+---
+
+- Evénement vedette
+    - Les festin des courgars !
+    - 4 juin 2021
+    - Résumé de l’événement pour donner un bref résumé afin d’aider le lecteur à déterminer rapidement l’objectif de l’événement.
+    - Voir l’événement
+
+---
+
+- Les cougars du Zoo
+    - 5 septembre 2020
+    - L'histoire de Anneta, la cougar
+    - L’automne dernier, le Zoo de Val-Jalbert accueillait Anneta, une jeune cougar qui a connu un début de vie pour le moins tumultueux!
+    - Lire l’article
+- Anneta 
+    - Petite cougar à trois pattes, Anneta saura vous charmer avec sa personnalité enjouée.
+    - `[Image de moyenne taille]`
+
+
+---
+
+- Caractéristiques de l’animal
+    - Description générale
+        - Traits physiques
+        - Le cougar a un corps allongé et des membres relativement courts. La queue, qui est plus longue que la moitié de la longueur du corps (70% de la longueur de la tête et du corps) est duveteuse et atteint le sol en position debout. Leurs pupilles sont ovales et orientées verticalement.
+    - Habitat
+        - Portée
+        - Le cougar est un animal de grande envergure, dont l’aire de répartition s’étend sur près de 70 millions de km². Ils sont répartis dans tout l’hémisphère Nord, du cercle polaire arctique à l’Afrique du Nord, l’Amérique centrale et l’Asie. Ils sont absents en Islande, dans les îles arctiques, dans certaines parties de la Sibérie et dans les déserts extrêmes.
+    - Alimentation
+        - Chasse et comportement alimentaire
+        - Le cougar est un omnivore à l’alimentation très variée. Des recherches menées dans l’ex-Union soviétique ont montré que les cougars consomment plus de 300 espèces animales et quelques dizaines d’espèces végétales. Ils se nourrissent principalement de petits rongeurs comme les campagnols, les souris, les spermophiles, les hamsters, les gerbilles, les marmottes, les marmottes, les spermophiles et les souris sylvestres.
+
+---
+
+- Le saviez-vous ?
+    - Je suis un véritable athlète.
+        - Si je suis poursuivi, je peux parcourir plusieurs kilomètres. Je peux pousser des pointes à 48 km/h. Au saut en hauteur, mon record est de 2 m, et je suis aussi un excellent nageur.
+
+---
+
+- Galerie d'images
+    - `[Image de taille moyenne]`
+    -  __`Répéter les images de 3 à 6 fois`__
+- Voir toutes les images
+

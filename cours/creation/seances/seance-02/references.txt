@@ -1,0 +1,79 @@
+# Séance #02 — Notes et références
+
+## Les principes de l'ergonomie
+
+- Simplicité
+    + Ne contient que ce dont on a besoin.
+        * [Viget](https://www.viget.com/)
+        * [Happy Cog](https://www.happycog.com/)
+        * [Deux Huit Huit](https://deuxhuithuit.co)
+        * [~~University of Advanced Technology~~](https://www.uat.edu/)
+        - [~~Locomotive~~](https://locomotive.ca/)
+- Hiérarchie
+    + Des niveaux de priorités et de taxonomie sont établis.
+        * [Musée des Beaux-Arts de Montréal](https://www.mbam.qc.ca/fr/)
+        * [Santé Montérégie](https://santemonteregie.qc.ca/)
+        * [~~Leicester~~](https://www.leicesterma.org/)
+        * [~~Arngren~~](http://arngren.net/)
+- Navigabilité
+    + L'utilisateur peut parcourir efficacement l'éventail de contenus
+        - [Biron](https://biron.com)
+        - [Santé Montérégie](https://santemonteregie.qc.ca/)
+        * [~~Arngren~~](http://arngren.net/)
+- Constance
+    + Les codes demeurent d'une page à l'autre. Évite les surprises.
+        * [~~Arngren~~](http://arngren.net/)
+- Familiarité
+    + Ressemble à ce qu'on connaît. Intègre des symboles, applique des codes reconnus. 
+        - [NN Group](https://www.nngroup.com/)
+        - [~~Locomotive~~](https://locomotive.ca/)
+- Universalité
+    + Peut être compris de tous
+        - [Santé Montérégie](https://santemonteregie.qc.ca/)
+        - [~~Locomotive~~](https://locomotive.ca/)
+- Fonctionnalité
+    + Présente les moyens nécessaires à la satisfaction.
+        - [Wildlife Photographer of the Year](https://www.nhm.ac.uk/wpy/)
+        - [Casper](https://casper.com/ca/fr/)
+- Fiabilité
+    + Le système répondra de manière correcte et les erreurs de l'utilisateur sont pardonnées.
+- Efficience
+    + Atteindre sa satisfaction avec le moins de ressources possible.
+        - [Santé Montérégie](https://santemonteregie.qc.ca/)
+
+## La taxonomie
+
+__Méthode de classification__ des informations dans une architecture structurée.
+
+### Exemples
+
++ [Classification scientifique des espèces](https://fr.wikipedia.org/wiki/Classification_scientifique_des_esp%C3%A8ces#De_la_diversit%C3%A9_des_classifications)
++ [Ricardo Cuisine](https://www.ricardocuisine.com/)
++ [MIFO](https://mifo.ca/)
++ [FRIENDS](https://friends.ca/)
++ [DekuDeals](https://www.dekudeals.com/recent-drops)
+
+## Références générales
+
+### Architecture et ergonomie
+
+- [Flexibility and Efficiency of Use (anglais seulement)](https://www.nngroup.com/articles/flexibility-efficiency-heuristic/)
+- [Interaction Design Foundation (anglais seulement)](https://www.interaction-design.org/)
+- [An Introduction to Taxonomies (anglais seulement)](https://www.uxbooth.com/articles/introduction-to-taxonomies/)
+- [Polyhierarchies Improve Findability for Ambiguous IA Categories (anglais seulement)](https://www.nngroup.com/articles/polyhierarchy/)
+- [The Ultimate Guide to Understanding UX Roles and Which One You Should Go For (anglais seulement)](https://www.interaction-design.org/literature/article/the-ultimate-guide-to-understanding-ux-roles-and-which-one-you-should-go-for)
+- [What Does A UX Designer Actually Do?](https://careerfoundry.com/en/blog/ux-design/what-does-a-ux-designer-actually-do/)
+- [FlowMapp (anglais seulement)](https://app.flowmapp.com/)
+- [Ten usability heuristics (anglais seulement)](https://www.nngroup.com/articles/ten-usability-heuristics/)
+- [Information and Information Architecture: The Big Picture (anglais seulement)](https://www.smashingmagazine.com/2020/07/information-architecture-big-picture/)
+- [Flow Design Processes - Focusing on the Users' Needs (anglais seulement)](https://www.interaction-design.org/literature/article/flow-design-processes-focusing-on-the-user-s-needs)
+- [Universal-Design Principles and Heuristic Guidelines (anglais seulement)](https://www.uxmatters.com/mt/archives/2020/11/universal-design-principles-and-heuristic-guidelines.php)
+- [Laws of UX (anglais seulement)](https://lawsofux.com/)
+
+### Personas
+
+* [Wiki Persona](https://fr.wikipedia.org/wiki/Persona_(ergonomie))
+* [Personas vs. Jobs-to-be-done (anglais seulement)](https://www.nngroup.com/articles/personas-jobs-be-done/)
+* [Personas Make Users Memorable for Product Team Members (anglais seulement)](https://www.nngroup.com/articles/persona/)
+* [Apprendre à construire des personas](https://www.weloveusers.com/partage/cours/apprendre-personas.html)
+* [Why Personas Fail](https://www.nngroup.com/articles/why-personas-fail/)

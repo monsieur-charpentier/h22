@@ -1,0 +1,68 @@
+# Examen pratique #02 — Intégrer une composante « publication » à l'aide d'une méthode populaire
+
+## Instructions
+
+1. Prenez connaissance de la maquette.
+2. Choisissez une méthodologie d'intégration populaire.
+3. Développez la structure HTML de la composante maquettée.
+4. Utilisez le langage graphique fourni pour en développer l'esthétique.
+5. Ciblez les éléments de la composante qui sont interactifs.
+6. Créez les effets d'interaction manquants dans la maquette.
+7. Assurez-vous que le HTML soit valide, accessible et sémantique.
+8. Vérifiez que l'application de la méthodologie choisie soit juste.
+9. Inscrivez le nom de la méthodologie choisie dans un fichier « methodologie.txt ».
+10. Décrivez votre expérience (en quelques phrases) avec la méthodologie choisie.
+11. Conclure le tout avec votre appréciation générale de la méthodologie. Était-ce agréable ou désagréable ? Pourquoi ?
+
+## Langage graphique
+
+### Palette de couleur
+
+- bleu: #0b325d
+- bleu pale: #0b528d
+- bleu fonce: #0b3f6a
+
+### Typographie
+
+- taille petite: 13px
+- taille courante: 14px
+- taille grande: 16px
+- taille très grande: 19px
+- police (Google Fonts): 'Inter', sans-serif
+- interlignage: 1.5625em
+
+### Espacements
+
+- espacement très petit: 5px
+- espacement petit: 10px
+- espacement moyen: 15px
+- espacement grand: 20px
+- espacement très grand: 30px
+
+
+## Critères d'évaluation
+
+
+### Communication graphique   / 4
+
+- Reproduction fidèle du rendu maquetté
+- Utilisation juste du langage graphique fourni
+- Effets d'interaction complets et harmonieux
+
+### Respect des consignes   / 3
+
+- Respect de la méthodologie choisie
+- HTML valide, accessible et sémantique
+- Description pertinente de l'expérience
+
+### Méthode de travail  / 3
+
+- CSS sectionné et organisé logiquement
+- Tout le code utilisé est pertinent
+- Propreté et rigueur générales
+
+## Remise
+
+La remise des travaux se fera sur Léa le [date] avant [heure]. Aucun retard ne sera toléré, un travail remis après [heure] sera considéré avec un jour de retard.
+
+Politique sur les retards : Un travail en retard sera pénalisé de 5 % de la note maximale pour chaque jour de retard, et ce jusqu’à concurrence de 25 %. Aucun travail ne sera accepté au-delà de 5 jours de retard.

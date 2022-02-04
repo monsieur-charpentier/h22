@@ -1,0 +1,159 @@
+# Quiz de connaissances générales
+
+## Remise
+
+La remise du quiz se fera sur Léa le [date] avant [heure]. Aucun retard ne sera toléré, un travail remis après [heure] sera considéré avec un jour de retard.
+
+### Politique sur les retards
+
+Un travail en retard sera pénalisé de 5 % de la note maximale pour chaque jour de retard, et ce jusqu’à concurrence de 25 %. Aucun travail ne sera accepté au-delà de 5 jours de retard.
+
+## Instructions
+
+- Répondez aux questions suivantes dans un fichier texte (_quiz.txt_).
+- __Numérotez vos réponses__ aux questions en suivant l'ordre ci-dessous.
+- Une bonne réponse vous mérite un (1) point et une mauvaise réponse, zéro (0).
+- Une abstention de répondre vous vaudra un demi-point (.5).
+- La note finale sera ramenée sur __10 points__.
+
+__Bonne recherche !__
+
+---
+
+1. __Vrai ou faux__ Un prototype sert à valider *l'esthétique* proposée pour un projet Web donné.
+2. __Vrai ou faux__ Le code ci-dessous permet de centrer une image dans un cadre arbitraire, sans changer son ratio d'aspect :
+```css
+.image {
+	object-fit: center;
+	object-position: cover;
+}
+```
+3. __Choix de réponse__ La taxonomie, appliquée à une plateforme Web, sert à :
+	- Filtrer des entrées
+	- Trier des entrées
+	- Organiser des entrées
+	- Toutes ces réponses
+4. __Choix de réponse__ Lequel des contenus suivants ne devrait pas faire partie d'un prototype (fil de fer)  :
+	- Le vrai contenu texte
+	- Les vraies images
+	- Les boutons d'appel à l'action
+	- Les termes du menu
+5. __Choix de réponse__ Lequel des termes ci-dessous ne représente pas une famille de polices de caractère :
+	- Humane
+	- Serif
+	- Cursive
+	- Fantastique
+6. __Choix de réponse__ Lequel des noms suivants est associé à une méthode « heuristique » d'évaluation de l'ergonomie :
+	- Nielsen
+	- Norman
+	- Nicolas
+	- Benoît
+7. __Choix de réponse__ Laquelle des unités CSS ci-dessous n'existe pas :
+	- cm
+	- in
+	- lh
+	- ct
+8. __Vrai ou faux__ La balise `<option>` à l'intérieur d'une balise `<select>` peut être stylisée grâce à la pseudo-classe `:checked`.
+9. __Vrai ou faux__ Adapter une composition Web _en ciblant chaque appareil et chaque configuration d'appareil_ est la méthode la plus efficace de faire ce qu'on appelle du « responsive design ».
+10. __Vrai ou faux__ Une « composante » en développement Web, c'est une ligne de code seule qui peut être employée à plusieurs usages.
+11. __Vrai ou faux__ La syntaxe de la classe ci-dessous suit la méthodologie BEM :
+```css
+.bloc--element__modificateur
+```
+12. __Vrai ou faux__ Le CSS dit « atomique » est une méthode de développement qui met de l'avant un métaphore physique où l'on parle d'atomes, mollécules et organismes.
+13. __Vrai ou faux__ « Tailwind CSS » est un cadre de travail CSS qui déploie une conception dite « atomique » du CSS.
+14. __Choix de réponse__ Laquelle des pratiques suivantes n'est pas considérée comme étant une « bonne pratique » en CSS.
+	- Éviter les sélecteurs #ID
+	- Écrire des sélecteurs qui représentent vos intentions
+	- Créer une classe afin d'éviter de répéter un ensemble de propriétés
+	- Solutionner des problèmes que vous n’avez pas encore rencontrés
+15. __Vrai ou faux__ On peut arrêter une animation en CSS à l'aide du couple propriété/valeur suivant :
+```css
+animation-play-state: stopped;
+```
+16. __Vrai ou faux__ Le code ci-dessous, produira une animation sur l'élément sélectionné :
+```css
+.selecteur {
+	animation-name: elargir;
+	animation-duration: 200ms;
+}
+
+@keyframes elargir {
+  @from {
+    width: 300px;
+  }
+
+  @to {
+    width: 440px;
+  }
+}
+```
+17. __Vrai ou faux__ Il est impossible d'utiliser des propriétés personnalisés à l'intérieur d'une condition de requête media comme présenté ci-dessous :
+```css
+@media screen and (min-width: var(--GrandEcran)) {
+	.element {
+		width: 100%;
+	}
+}
+```
+18. __Choix de réponse__ Quelle sera la couleur finalement appliquée sur l'élément `.enfant` dans le code CSS ci-dessous ?
+	- red
+	- blue
+	- yellow
+	- green
+
+```css
+:root { 
+	--CouleurEnfant: red; 
+}
+
+.parent { 
+	--CouleurEnfant: blue; 
+}
+
+body { 
+	--CouleurEnfant: yellow;
+}
+
+.enfant { 
+	--CouleurEnfant: initial;
+	color: var(--CouleurEnfant, green);
+}
+```
+19. __Vrai ou faux__ Les deux éléments sélectionnés ci-dessous seront affichés _l'un en dessous de l'autre_ dans le `grid-area` qui leur est assignée.
+```css
+	.nav, .header {
+		grid-area: header-nav;
+	}
+```
+20. __Choix de réponse__ Le meilleur acteur de tout Hollywood est :
+	- John Travolta
+	- Brad Pitt
+	- Nicolas Cage
+	- Ryan Gosling
+
+<style type="text/css">
+    ol ul { list-style-type: lower-alpha; }
+    .codehilite {
+        margin-top: .25em;
+    }
+    .codehilite .err {
+        background-color: initial;
+        color: inherit;
+    }
+
+    ol>li {
+        page-break-inside: avoid;
+    }
+
+    ol>li+li {
+        margin-top: .5em;
+    }
+
+    @media print {
+        body {
+            all: initial;
+        }
+    }
+</style>
+

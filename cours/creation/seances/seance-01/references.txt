@@ -1,0 +1,6 @@
+# Séance #01 — Références
+
+- [10 étapes de conception d'un site Web en agence](https://www.parkour3.com/blog/2019/02/10-etapes-de-conception-dun-site-web-en-agence/)
+- [7 simple steps to the webdesign process (anglais seulement)](https://webflow.com/blog/the-web-design-process-in-7-simple-steps)
+- [Following A Web Design Process (anglais seulement)](https://www.smashingmagazine.com/2011/06/following-a-web-design-process/)
+- [Developing an Effective Strategy for Your Web Project (anglais seulement)](https://www.awwwards.com/developing-an-effective-strategy-for-your-web-project.html)

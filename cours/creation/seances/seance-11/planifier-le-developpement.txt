@@ -1,0 +1,100 @@
+# Planifier le développement d'une plateforme Web
+
+- Trouver les réponses aux questions ci-dessous.
+- Dans le doute, poser les questions pertinentes au concepteur.
+
+## Appréciation technique
+1. __Les maquettes contiennent-elles du vrai texte et/ou du « lorem ipsum » ?__
+	- S'il s'agit de lorem ipsum, à quel point sommes-nous certain que le vrai texte s'y apparentera en quantité et en structure ?
+	- Quand croyons-nous recevoir le vrai texte ?
+2. __Les effets interactifs, les transitions et/ou animations sont-ils conçus ?__
+	- Si les maquettes sont statiques, demander au concepteur s'il envisage des animations ou des transitions au changement de page ou au chargement.
+3. __Est ce que les éléments interactifs (boutons, champs, liens, etc.) présentent des styles pour chacun de leurs états ?__
+	- Quels styles manqueraient-ils ?
+4. __Y a-t-il d'autres éléments (des fonctionnalités, par exemple) dont certains styles manqueraient ?__
+5. __Est-ce que la quantité de ressources externes (images, polices, vidéo, etc.) est raisonnable ?__
+	- Pourrait-il y avoir des problèmes de poids ?
+	- Avons-nous une idée du poids des images ou des polices de caractère ?
+		- Communiquer au concepteur ce que nous savons et lui demander de nous fournir des informations sur ce que nous ne savons pas (p. ex. le poids des polices choisies dans Google Fonts).
+6. __Manque-t-il des contenus ou des informations ?__
+	- Par exemple, les libellés des champs de formulaire sont-ils présents ?
+7. __Comment envisageons-nous le fonctionnement des fonctionnalités présentes ?__
+	- Faire part de notre compréhension de ce fonctionnement au concepteur pour la valider.
+8. __Avons-nous plusieurs variantes des maquettes qui soient adaptées aux différents appareils populaires (téléphone, tablette, portable, bureau, etc.) ?__
+	- Sinon, lesquelles seraient absentes ?
+	- Sommes-nous à l'aise de décliner les maquettes existantes par nous-mêmes ?
+	- Communiquer au concepteur notre décision.
+9. __Est-ce que la composition peut occuper en tout temps l'entièreté de la fenêtre ou devra-t-on en limiter la largeur ?__
+	- Quelle serait largeur si la composition devait être limitée ?
+	- Quelle serait la couleur d'arrière-plan dans l'espace laissé vacant ?
+	- Comment aligne-t-on le corps de la page lorsque la fenêtre est plus grande que sa dimension maximale (gauche, centre, droite) ?
+10. __La maquette semble-t-elle accessible ?__
+	- Les couleurs du texte sont-elles assez contrastées ?
+	- Les tailles de texte sont-elles lisibles ?
+	- Les formulaires contiennent-ils toutes les informations nécessaires à l'accessibilité ?
+11. __Quelles sont les régions principales de la composition ?__
+	- Entête, navigation, contenu principal, barre latérale, pied de page, etc.
+	- Produire une capture de chacune des régions, la nommer puis la fournir au concepteur pour valider notre compréhension des compositions.
+	- Combien de compositions différentes voyons-nous dans les maquettes ?
+		- Sont-ce les seules envisagées par le concepteur ?
+			- Sinon, quel genre de compositions seraient manquantes dans les maquettes ?
+12. __Y a-t-il une grille claire sous les compositions présentées dans les maquettes ?__
+	- Pouvons-nous inférer le nombre de colonnes et la largeur des gouttières ?
+		- Sinon, posons la question au concepteur.
+13. __Y a-t-il des aspects de la communication graphique nous semblant inadéquats ?__
+	- Des espacements trop ou pas assez grands ?
+	- Des lignes de texte trop ou pas assez larges ?
+	- Des alignements croches ?
+	- D'autres entorses aux principes de la communication graphique ?
+	
+
+## Extraire le langage graphique
+1. __Est-ce que les éléments du langage graphique sont déjà fournis ?__
+	- Sinon, pouvons-nous les extraire moi-même ?
+		- Demander au concepteur (designer) de donner les éléments manquants.
+2. __Est-ce que le langage graphique est équilibré et efficace ?__
+	- Y a-t-il des espacements incohérents ?
+	- Est-ce que la palette de couleur pourrait être amincie ?
+		- Y a-t-il des couleurs bien similaires qui pourraient être unifiées ?
+	- Nommer les couleurs de la palette.
+3. __Suggérer au concepteur (s'il y a lieu) les ajustements rationnels et pertinents.__
+
+## Décortiquer en composantes
+1. __Quelles sont les composantes perçues dans les maquettes ?__
+	- Quels sont leurs états possibles ?
+	- Y a-t-il des variantes/disparités qui pourraient être unifiées ?
+2. __Faire une capture de chacune des composantes perçues et de chacun de leurs états présentés.__
+3. __Nommer de manière évocatrice, courte et unique, chacune des composantes perçues.__
+	- Nommer aussi les états associés.
+4. __Est-ce que chacun des états possibles de chacune des composantes ont été conçus ?__
+	- Dans le cas contraire, quels états considérons-nous comme manquant ?
+		- Demander au concepteur de fournir les états.
+
+## Feuille de route
+1. __Quel est l'ordre dans lequel nous allons développer ?__
+	- Y a-t-il des éléments qui devraient être produits avant les autres ?
+	- Qu'est-ce qui nous semble le plus important dans les maquettes ?
+	- Qu'est-ce qui prendra le plus de temps en tests et/ou débogage ?
+2. __Comment allons-nous gérer l'adaptation ?__
+	- Commençons-nous par les écrans les plus larges ou plutôt par les plus étroits (mobile) ?
+		- Pourquoi ?
+
+## Estimé des heures requises
+1. __Combien de temps de développement j'estime ?__
+	- Heures envisagées...
+		- pour les compositions générales (layout)
+		- pour chacune des composantes
+		- pour l'adaptation
+		- pour les fonctionnalités
+		- pour les tests
+		- pour l'assurance qualité
+		- pour les révisions
+	- Ajouter un « fond de prévoyance » pour les imprévus.
+2. __Quel est votre degré de confiance dans votre estimé ?__
+	- Nommer les éléments pour lesquels nous sommes le moins confiant.
+3. __Communiquer le total des heures estimées.__
+
+
+## Considérations générales
+- Y a-t-il des enjeux ou problèmes étant envisagés ?
+- Est-ce que certains éléments sont plus risqués que d'autres ?
