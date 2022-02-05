@@ -3,6 +3,7 @@
 **/depot
 **/*.zip
 **/quiz.html
+**/**solution**.*
 **/instructions.html
 **/instructions.pdf
 cours/*/*.txt
