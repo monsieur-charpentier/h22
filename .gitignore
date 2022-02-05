@@ -4,6 +4,7 @@
 **/*.zip
 **/quiz.html
 **/**solution**
+**/solution
 **/**solution**.*
 **/instructions.html
 **/instructions.pdf
