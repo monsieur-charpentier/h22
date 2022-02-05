@@ -56,7 +56,7 @@
 
 ## Remise
 
-La remise des travaux se fera sur Léa le [date] avant [heure]. Aucun retard ne sera toléré, un travail remis après [heure] sera considéré avec un jour de retard.
+La remise des travaux se fera sur Léa le jeudi 5 mai 2022 avant 23h59. Aucun retard ne sera toléré, un travail remis après 23h59 sera considéré avec un jour de retard.
 
 Politique sur les retards : Un travail en retard sera pénalisé de 5 % 
 
