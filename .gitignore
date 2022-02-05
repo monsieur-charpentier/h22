@@ -2,8 +2,12 @@
 **/correction
 **/depot
 **/*.zip
-cours/**/*.pdf
 **/quiz.html
+**/**solution**
+**/**solution**.*
 **/instructions.html
 **/instructions.pdf
-
+cours/*
+!cours/creation
+cours/*/*.txt
+**/documentation/**planCadre**.*
