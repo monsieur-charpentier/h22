@@ -2,12 +2,9 @@
 **/correction
 **/depot
 **/*.zip
-**/quiz.html
 **/**solution**
 **/solution
 **/**solution**.*
-**/instructions.html
-**/instructions.pdf
 cours/*
 !cours/creation
 cours/*/*.txt
