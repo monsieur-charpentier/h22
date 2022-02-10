@@ -1,0 +1,28 @@
+# Références — Séance #03
+
+## Parcours utilisateur
+
+- [https://www.justinmind.com/blog/user-flow/](Complete guide to user flows – your map to UX success (anglais seulement))
+- [https://www.interaction-design.org/literature/topics/user-flows](What are User Flows? (anglais seulement))
+- [https://uxdesign.cc/when-to-use-user-flows-guide-8b26ca9aa36a](User flow is the new wireframe (anglais seulement))
+- [https://www.flowmapp.com/features/user-flow-ux-tool](User Flow Diagrams (anglais seulement))
+
+## Architecture et ergonomie
+
+- [Flexibility and Efficiency of Use (anglais seulement)](https://www.nngroup.com/articles/flexibility-efficiency-heuristic/)
+- [Interaction Design Foundation (anglais seulement)](https://www.interaction-design.org/)
+- [An Introduction to Taxonomies (anglais seulement)](https://www.uxbooth.com/articles/introduction-to-taxonomies/)
+- [Polyhierarchies Improve Findability for Ambiguous IA Categories (anglais seulement)](https://www.nngroup.com/articles/polyhierarchy/)
+- [The Ultimate Guide to Understanding UX Roles and Which One You Should Go For (anglais seulement)](https://www.interaction-design.org/literature/article/the-ultimate-guide-to-understanding-ux-roles-and-which-one-you-should-go-for)
+- [What Does A UX Designer Actually Do?](https://careerfoundry.com/en/blog/ux-design/what-does-a-ux-designer-actually-do/)
+* [FlowMapp (anglais seulement)](https://app.flowmapp.com/)
+* [Ten usability heuristics (anglais seulement)](https://www.nngroup.com/articles/ten-usability-heuristics/)
+* [Information and Information Architecture: The Big Picture (anglais seulement)](https://www.smashingmagazine.com/2020/07/information-architecture-big-picture/)
+
+## Personas
+
+* [Wiki Persona](https://fr.wikipedia.org/wiki/Persona_(ergonomie))
+* [Personas vs. Jobs-to-be-done (anglais seulement)](https://www.nngroup.com/articles/personas-jobs-be-done/)
+* [Personas Make Users Memorable for Product Team Members (anglais seulement)](https://www.nngroup.com/articles/persona/)
+* [Apprendre à construire des personas](https://www.weloveusers.com/partage/cours/apprendre-personas.html)
+* [Why Personas Fail](https://www.nngroup.com/articles/why-personas-fail/)
