@@ -1,0 +1,75 @@
+pre {
+	font-family: "Input Mono Narrow";
+	font-size: var(--font-current);
+	font-weight: 500;
+	flex: 0px 1 1;
+	overflow: visible;
+	color: #FF6387;
+	padding: var(--spacing-thinnest);
+	background: var(--primary);
+	border-radius: var(--radius-sharp);
+}
+
+pre.highlight, pre.highlight *:not(.highlight) {
+	color: var(--lighting);
+}
+
+pre span {
+	padding-right: var(--spacing-pico);
+	position: relative;
+	display: inline-block;
+	color: var(--lighting);
+}
+
+pre span:hover:before {
+	transform: scale(1.5);
+	transform-origin: left center;
+	opacity: 1;
+}
+
+pre span:before {
+	content: attr(title);
+	padding: 0 var(--spacing-pico);
+	background-color: #031834;
+	color: var(--lighting);
+	margin-right: var(--spacing-micro);
+	border-radius: var(--radius-sharper);
+	opacity: 0;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	vertical-align: text-bottom;
+	position: absolute;
+	margin-top: -1em;
+}
+
+pre span[title]:hover {
+	color: inherit;
+}
+
+span[title="Nom"],
+span[title="Nom"]:hover:before {
+	color: #ae89fe;
+}
+
+span[title="Paramètre"],
+span[title="Paramètre"]:hover:before {
+	color: #6CE0F0;
+}
+
+span[title="Argument"],
+span[title="Argument"]:hover:before {
+	color: #FF9E3B;
+}
+
+span[title="Retour"],
+span[title="Retour"]:hover:before {
+	color: #B0E35D;
+}
+
+span[title="Corps"],
+span[title="Corps"]:hover:before {
+	color: #FF6387;
+}
+

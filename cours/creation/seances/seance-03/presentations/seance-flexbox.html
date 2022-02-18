@@ -1,0 +1,275 @@
+<?xml-stylesheet type="text/xsl" href="presentation.ui" ><html xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="assets/css/dev_debug.css">
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/theme_language.css">
+<link rel="stylesheet" href="assets/css/theme_master.css">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<header><h1>Utiliser le modèle Flexbox</h1></header><main><section><article>
+			<section>
+				<h5>Qu'allons-nous voir aujourd'hui ?</h5>
+				<ol>
+					<li>Pourquoi utiliser le rôle d'affichage « Flexbox » ?</li>
+					<li>Les propriétés flexbox</li>
+					<li>Les grilles avec flexbox</li>
+				</ol>
+			</section>
+		</article><article>
+			<div>
+				<h3>Les propriétés Flexbox</h3>
+				<section>
+					<div class="interactive-model flexbox-example selectable-items" contenteditable="true">
+						<p></p>
+					</div>
+				</section>
+			</div>
+				<form class="model-controls">
+					<details open="">
+						<summary><span>Instructions</span><hr></summary>
+						<p>/*
+							<br><br>
+								<strong>Le conteneur à la gauche est éditable.</strong>
+								<br><br>
+								1. Ajoutez des blocs avec la touche &lt; ENTER &gt;<br>
+								2. Retirez des blocs avec les touches &lt; BACKSPACE &gt; &amp; &lt; DELETE &gt;<br>
+								3. Modifiez le contenu à l'intérieur des blocs en ajoutant ou retirant des caractères.
+								<br><br>
+								<strong>Les blocs de contenu peuvent être ciblés pour en modifier les propriétés de l'ensemble « Élément »</strong>
+								<br><br>
+								1. Sélectionnez un bloc en cliquant dessus.<br>
+								2. Maintenez la touche &lt; SHIFT &gt; pour sélectionner plusieurs blocs.<br>
+								3. Cliquez sur un bloc ciblé pour le déselectionner.
+								<br><br>
+								Lorsqu'aucun bloc n'est ciblé, les propriétés de l'ensemble « Élément » sont appliqués à *tous* les blocs à l'intérieur du conteneur.
+							<br><br>
+							*/
+						</p>
+					</details>
+					<details open="">
+						<summary>
+							<span>Conteneur</span>
+							<hr>
+						</summary>
+						<ul>
+							<li>
+<label>display<span>: </span></label>
+								<div>
+<span>;</span><select name="display">
+									<option value="block" selected>block</option>
+									<option value="flex">flex</option>
+									<option value="inline-flex">inline-flex</option>
+								</select>
+</div>
+							</li>
+							<li><hr></li>
+						</ul>
+						<details>
+							<summary>
+								<span>Propriétés flex</span>
+								<hr>
+							</summary>
+							<ul>
+								<li>
+<label>flex-direction<span>: </span></label>
+									<div>
+<span>;</span><select name="flex-direction">
+										<option value="row" selected>row</option>
+										<option value="row-reverse">row-reverse</option>
+										<option value="column">column</option>
+										<option value="column-reverse">column-reverse</option>
+									</select>
+</div>
+								</li>
+								<li>
+<label>flex-wrap<span>: </span></label>
+									<div>
+<span>;</span><select name="flex-wrap">
+										<option value="nowrap" selected>nowrap</option>
+										<option value="wrap">wrap</option>
+										<option value="wrap-reverse">wrap-reverse</option>
+									</select>
+</div>
+								</li>
+								<li>
+<label>align-items<span>: </span></label>
+									<div>
+<span>;</span><select name="align-items">
+										<option value="stretch" selected>stretch</option>
+										<option value="baseline">baseline</option>
+										<option value="flex-start">flex-start</option>
+										<option value="flex-end">flex-end</option>
+										<option value="center">center</option>
+									</select>
+</div>
+								</li>
+								<li>
+<label>justify-content<span>: </span></label>
+									<div>
+<span>;</span><select name="justify-content">
+										<option value="flex-start" selected>flex-start</option>
+										<option value="flex-end">flex-end</option>
+										<option value="center">center</option>
+										<option value="space-between">space-between</option>
+										<option value="space-around">space-around</option>
+										<option value="space-evenly">space-evenly</option>
+									</select>
+</div>
+								</li>
+							</ul>
+						</details>
+						<details>
+							<summary>
+								<span>Propriétés génériques</span>
+								<hr>
+							</summary>
+							<ul>
+								<li>
+<label>margin-top<span>: </span></label>
+									<div>
+<span>;</span><input type="text" value="0" name="parent-margin-top"><input type="checkbox" name="parent-margin-top" value="auto">
+</div>
+								</li>
+								<li>
+<label>margin-right<span>: </span></label>
+									<div>
+<span>;</span><input type="text" value="0" name="parent-margin-right"><input type="checkbox" name="parent-margin-right" value="auto">
+</div>
+								</li>
+								<li>
+<label>margin-bottom<span>: </span></label>
+									<div>
+<span>;</span><input type="text" value="0" name="parent-margin-bottom"><input type="checkbox" name="parent-margin-bottom" value="auto">
+</div>
+								</li>
+								<li>
+<label>margin-left<span>: </span></label>
+									<div>
+<span>;</span><input type="text" value="0" name="parent-margin-left"><input type="checkbox" name="parent-margin-left" value="auto">
+</div>
+								</li>
+							</ul>
+						</details>
+					</details>
+					<details class="targetable-controls">
+						<summary>
+							<span>Élément</span>
+							<hr>
+						</summary>
+						<details open="">
+							<summary>
+								<span>Propriétés flex</span>
+								<hr>
+							</summary>
+							<ul>
+								<li>
+<label>align-self<span>: </span></label>
+									<div>
+<span>;</span><select name="align-self">
+										<option value="auto">auto</option>
+										<option value="stretch">stretch</option>
+										<option value="baseline">baseline</option>
+										<option value="flex-start">flex-start</option>
+										<option value="flex-end">flex-end</option>
+										<option value="center">center</option>
+									</select>
+</div>
+								</li>
+								<li>
+<label>flex-basis<span>: </span></label>
+									<div>
+<span>;</span><input type="text" name="flex-basis"><input type="checkbox" name="flex-basis" value="auto" checked>
+</div>
+								</li>
+								<li>
+<label>flex-grow<span>: </span></label>
+									<div>
+<span>;</span><input type="number" step="1" min="0" max="10" value="0" name="flex-grow">
+</div>
+								</li>
+								<li>
+<label>flex-shrink<span>: </span></label>
+									<div>
+<span>;</span><input type="number" step="1" min="0" max="10" value="1" name="flex-shrink">
+</div>
+								</li>
+								<li>
+<label>order<span>: </span></label>
+									<div>
+<span>;</span><input type="number" step="1" min="0" max="10" value="0" name="order">
+</div>
+								</li>
+							</ul>
+						</details>
+						<details>
+							<summary>
+								<span>Propriétés génériques</span>
+								<hr>
+							</summary>
+							<ul>
+								<li>
+<label>width<span>: </span></label>
+									<div>
+<span>;</span><input type="text" name="width"><input type="checkbox" name="width" value="auto" checked>
+</div>
+								</li>
+								<li>
+<label>min-width<span>: </span></label>
+									<div>
+<span>;</span><input type="text" name="min-width"><input type="checkbox" name="min-width" value="auto" checked>
+</div>
+								</li>
+								<li>
+<label>height<span>: </span></label>
+									<div>
+<span>;</span><input type="text" name="height"><input type="checkbox" name="height" value="auto" checked>
+</div>
+								</li>
+								<li>
+<label>min-height<span>: </span></label>
+									<div>
+<span>;</span><input type="text" name="min-height"><input type="checkbox" name="min-height" value="auto" checked>
+</div>
+								</li>
+								<li>
+<label>margin-top<span>: </span></label>
+									<div>
+<span>;</span><input type="text" value="0" name="margin-top"><input type="checkbox" name="margin-top" value="auto">
+</div>
+								</li>
+								<li>
+<label>margin-right<span>: </span></label>
+									<div>
+<span>;</span><input type="text" value="0" name="margin-right"><input type="checkbox" name="margin-right" value="auto">
+</div>
+								</li>
+								<li>
+<label>margin-bottom<span>: </span></label>
+									<div>
+<span>;</span><input type="text" value="0" name="margin-bottom"><input type="checkbox" name="margin-bottom" value="auto">
+</div>
+								</li>
+								<li>
+<label>margin-left<span>: </span></label>
+									<div>
+<span>;</span><input type="text" value="0" name="margin-left"><input type="checkbox" name="margin-left" value="auto">
+</div>
+								</li>
+							</ul>
+						</details>
+					</details>
+				</form>
+		</article><article>
+			<h3>Lecture subséquente</h3>
+			<ul>
+				<li><a href="https://www.w3.org/TR/css-flexbox-1/">W3C — Module Flexbox</a></li>
+				<li><a href="https://developer.mozilla.org/fr/docs/Apprendre/CSS/CSS_layout/Flexbox">MDN — Apprendre flexbox</a></li>
+				<li><a href="https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Flexible_Box_Layout/Cas_utilisation_flexbox">MDN — Cas d'utilisation classiques de flexbox</a></li>
+				<li><a href="https://philipwalton.github.io/solved-by-flexbox/">Solutions flexbox à des problèmes courants</a></li>
+				<li><a href="https://github.com/philipwalton/flexbugs">Flexbugs — Normaliser l'application du modèle flexbox</a></li>
+			</ul>
+		</article></section></main><script src="assets/js/main.js"></script>
+</body>
+</html>
