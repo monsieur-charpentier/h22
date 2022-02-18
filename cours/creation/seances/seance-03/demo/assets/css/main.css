@@ -1,0 +1,77 @@
+/* Créer une grille réutilisable
+ * à l'aide des propriétés personnalisées.
+ *
+ * C'est un avant-goût de ce que nous ferons
+ * tout au long de la session. */
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+html {
+	/* le nb de colonnes
+	 * voulues dans la grille */
+	--columns: 2;
+	/* l'espacement utilisé
+	 * comme gouttière de la grille */
+	--gap: 10px;
+}
+
+
+/* on peut modifier les valeurs
+ * de nos « variables » dans
+ * des requêtes media */
+@media (min-width: 800px) {
+	html {
+		--columns: 4;
+		--gap: 20px;
+	}
+}
+
+
+/* création de notre
+ * « composante » de grille */
+.grille {
+	display: flex;
+	/* on permet aux items (enfants)
+	 * de créer des rangées (briser la ligne) */
+	flex-wrap: wrap;
+
+	/* inclusion de gouttières
+	 * dans notre grille */
+	gap: var(--gap);
+}
+
+.grille>* {
+	/* formule d'inclusion des gap
+	 * dans nos dimensions de colonnes */
+	flex-basis: calc((100% / var(--columns)) - (var(--gap) * (var(--columns) - 1) / var(--columns)));
+
+	/* on ne veut pas que
+	 * les items rétrécissent */
+	flex-shrink: 0;
+
+	/* on veut que les items 
+	 * remplissent l'espace disponible */
+	flex-grow: 1;
+
+	/* on veut inclure à l'intérieur
+	 * des dimensions données tout
+	 * padding ou border */
+	box-sizing: border-box;
+}
+
+
+/* styles de base 
+ * donnés aux articles */
+article {
+	padding: 20px;
+	background-color: aqua;
+}
+
+
+
+
