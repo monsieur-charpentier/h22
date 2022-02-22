@@ -1,0 +1,295 @@
+/* 
+
+	Gouttière et rythme de base
+		20px
+
+	Rythme serré
+		10px
+
+	Rythme espacé
+		80px
+
+	Largeur maximale des sections principales
+		100rem
+*/
+
+
+/* Règles génériques ----------------------- */
+
+	/* Rétablir les marges 
+		intérieures & extérieures sur tout */
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Rythme vertical de base 
+		pour tous les éléments de contenu */
+	*+p, *+img, *+a, *+small,
+	*+h1, *+h2, *+h3, *+h4, *+h5, *+h6 { 
+		margin-top: 20px; 
+	}
+
+	/* Base typographique à être héritée */
+	html {
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+		line-height: 1.5625;
+	}
+
+	/* Interlignage propre aux titres
+		(moins espacé que le contenu courant) */
+	h1, h2, h3, h4 {
+		line-height: 1.25;
+	}
+
+	/* Style « prototype » 
+		pour les images vides */
+	img {
+		background-color: rgba(0,0,0,0.1);
+		background-image: linear-gradient(to top left,
+	          rgba(0,0,0,0) 0%,
+	          rgba(0,0,0,0) calc(50% - 1px),
+	          rgba(0,0,0,.1) 50%,
+	          rgba(0,0,0,0) calc(50% + 1px),
+	          rgba(0,0,0,0) 100%),
+	      linear-gradient(to top right,
+	          rgba(0,0,0,0) 0%,
+	          rgba(0,0,0,0) calc(50% - 1px),
+	          rgba(0,0,0,.1) 50%,
+	          rgba(0,0,0,0) calc(50% + 1px),
+	          rgba(0,0,0,0) 100%);
+		border-radius: 3px;
+	}
+
+	/* Base « prototype » pour les éléments enligne 
+		utilisés seuls (sans parent textuel — p. ex. <p>) */
+	a, small {
+		display: inline-block;
+	}
+
+	/* Largeur maximale de toute 
+		ligne de paragraphe pour une lisibilité adéquate */
+	p {
+		max-width: 85ch;
+	}
+
+
+/* Règles spécifiques des éléments de contenu ----------------------- */
+
+	/* *Tous* liens sont de type bouton.
+		Devra ultimement être « classifié » */
+	a {
+		padding: .4125em .75em;
+		background-color: rgba(0,0,0,0.1);
+		text-decoration: none;
+		color: inherit;
+		border-radius: .2em;
+		transition-duration: 100ms;
+	}
+
+	a:hover {
+		background-color: rgba(0,0,0,0.8);
+		color: white;
+	}
+
+	/* Intervention graphique séparant clairement
+		les titres du contenu les suivant */
+	h2 {
+		border-bottom: 1px solid rgba(0,0,0,.3);
+		padding-bottom: 10px;
+	}
+
+
+/* Règles générales des grilles d'articles (non-adaptatives) ----------------------- */
+
+	/* Contexte flex horizontal
+		avec marge par espacement */
+	body>section>div {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	/* Largeur de base de 
+		tout enfant de la grille */
+	body>section>div>* {
+		width: calc(50% - 10px);
+	}
+
+	/* Dimensions de base de 
+		toute image (vide) interne */
+	body>section>div img {
+		height: 10rem;
+		width: 100%;
+	}
+
+
+/* Règles générales des sections de contenu ----------------------- */
+
+	/* Marges de sécurité de base */
+	body>* {
+		margin: 20px;
+	}
+
+	/* Rythme vertical espacé pour bien dégager
+		les principaux conteneurs de contenu */
+	body>*+* {
+		margin-top: 80px;
+	}
+
+	/* Limiter et centrer les 
+		principales sections de contenu */
+	body>section {
+		max-width: 100rem;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	/* Rythme vertical de base pour 
+		les éléments de section */
+	body>section>*+* {
+		margin-top: 20px;
+	}
+
+
+/* Conteneur spécifique : Entête principale ----------------------- */
+
+	/* Donner un style « boîte de couleur »
+		et forcer la pleine largeur (ie : full bleed) */
+	body>header {
+		margin: 0;
+		min-height: 50vh;
+		background-color: rgba(0,0,0,0.1);
+		padding: 40px 20px;
+	}
+
+	/* Établir un contexte horizontal d'alignement
+		absolument centré pour le contenu */
+	body>header {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	/* Permettre aux enfants de l'entête de croître */
+	body>header>* {
+		flex-grow: 1;
+	}
+
+	/* Séparer la largeur maximale des sections principales
+		entre les deux elément enfants de l'entête */
+	body>header>img {
+		max-width: 40rem;
+	}
+
+	body>header>div {
+		max-width: calc(60rem - 20px);
+	}
+
+	/* Dégager l'image du contenu texte et
+		la forcer à s'étirer verticalement */
+	body>header>img {
+		margin-right: 40px;
+		align-self: stretch;
+	}
+
+
+/* Conteneur spécifique : Section des actualités ----------------------- */
+
+	/*	Article vedette & liste « autres articles » *côte-à-côte* */
+
+		/* 1. Article vedette */
+			/* Article vedette occupant 
+				la gauche d'une grille */
+			section>div>article:only-of-type {
+				width: calc(75% - 20px);
+				margin-right: 40px;
+			}
+
+			/* Article vedette en flex pour
+				distribuer l'espace vertical restant */
+			section>div>article:only-of-type {
+				display: flex; /* < Commenter pour constater le résultat */
+				flex-direction: column;
+				align-items: flex-start;
+			}
+
+			/* Octroyer l'espace vertical restant
+				à l'image de l'article vedette  */
+			section>div>article:only-of-type>img {
+				flex-grow: 1;
+			}
+
+
+		/* 2. Liste verticale « autres articles » */
+			/* Les « autre articles » sont disposés
+				verticalement avec un rythme standard */
+			section>div>article:only-of-type+section>*+* {
+				margin-top: 20px;
+			}
+
+			/* Les images des « autre articles » flottent
+				à la gauche du contenu textuel */
+			section>div>article:only-of-type+section img {
+				float: left;
+				width: 25%;
+				margin-right: 20px;
+				height: 8rem;
+			}
+
+			/* Étant donné le flottement de l'image,
+				l'élément la suivant est départi de sa marge */
+			section>div>article:only-of-type+section img+* {
+				margin-top: 0;
+			}
+
+			/* L'article contenant l'image flottante
+				doit la contenir en tout temps */
+			section>div>article:only-of-type+section>article {
+				overflow: auto; /* < Commenter pour constater le résultat */
+			}
+
+
+/* Conteneur spécifique : Pied de page ----------------------- */
+
+	/* Centrer le pied de page comme les sections.
+		Le dégager du bas de la fenêtre. */
+	body>footer {
+		max-width: 100rem;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 80px;
+	}
+
+	/* Donner un style « boîte de couleur »
+		et le dégager des côtés de la fenêtre */
+	body>footer {
+		padding: 20px;
+		box-sizing: border-box;
+		background-color: rgba(0,0,0,.1);
+		min-height: 25vh;
+		width: calc(100% - 20px * 2);
+		border-radius: 5px;
+	}
+
+	/* Établir un contexte vertical d'alignement
+		absolument centré pour le contenu */
+	body>footer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* Retirer le style de base 
+		des titres de deuxième niveau */
+	body>footer>h2 {
+		border: none;
+	}
+
+	/* Donner une plus grande importance 
+		au lien de contact (type : appel à l'action) */
+	body>footer>a {
+		font-size: 24px;
+	}
