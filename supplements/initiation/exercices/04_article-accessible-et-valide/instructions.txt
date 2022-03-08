@@ -1,0 +1,23 @@
+# Exercice #4 — Article accessible et valide
+
+1. Faites une copie du fichier `source.html` et appelez-la `index.html`
+2. Ouvrez dans votre éditeur de texte (VSCode) _le dossier_ contenant le nouveau fichier `index.html` et démarrez la prévisualisation en direct (GO LIVE dans la barre d'état au bas de la fenêtre).
+3. Remplissez l'entête `<head>` comme il se doit.
+4. Structurez de manière sémantique le texte balisé de manière générique. Pour ce faire, utilisez les balises textuelles et structurelles vues dans les séances #3 & #4. Aidez-vous du schéma décisionnel prévu à cet effet.
+5. Prévisualisez en direct (avec Google Chrome) à mesure que vous sauvegardez votre fichier `index.html`.
+6. Lorsque vous avez terminé de structurer la page, validez-la à l'aide du [validateur W3C](https://validator.w3.org/). Pour ce faire, copiez l'intégralité de votre code HTML et collez-le dans la zone prévue à cet effet.
+7. Appliquez les ajustements proposés par le W3C puis assurez-vous une dernière fois de la validité de votre code en répétant l'étape #6 ci-dessus.
+8. Si ce n'est déjà fait, installez l'extension « AXE » dans Google Chrome puis ouvrez son panneau « Outil de développement (Devtools — `F12` ou `CMD+ALT+i`).
+9. Sélectionnez l'onglet « AXE » dans le panneau « Outil de développement ».
+10. Suivez les recommendations de l'extension AXE et appliquez les correctifs nécessaires. Sauvegardez vos changements puis répétez le processus jusqu'à ce qu'il n'y ait plus d'erreurs ou avertissements.
+11. Répétez les étapes #5 & #6 jusqu'à ce que votre page soit complètement _valide et accessible_.
+
+
+<style type="text/css">
+    @media print {
+        body {
+            all: initial;
+        }
+    }
+</style>
+

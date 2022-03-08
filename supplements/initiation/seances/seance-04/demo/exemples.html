@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title>Séance #04 — Les balises de structure</title>
+	<meta charset="utf-8">
+	<meta name="description" content="Exemples présentés en classe">
+	<meta name="author" content="Marc-André Charpentier">
+</head>
+
+<body>
+	<!-- 
+		Ci-dessous est une structure sectionnelle typique, une parmi tant d'autres. L'important est la validité. 
+		La structure en soi pourrait différer en fonction des contenus, contraintes et compositions 
+	 -->
+	
+	<!-- 
+		 La balise <main> sert à envelopper le *contenu principal* d'un document HTML.
+	 -->
+	<main>
+		<!-- 
+			La balise <article> sert à délimiter une partie de contenu qui est sensée *en elle-même*.
+			Elle pourrait donc être extraite de son contexte actuel pour être partagée, seule.
+		 -->
+		<article>
+			<!-- 
+				La balise <header> sert à envelopper un ensemble de contenu qui relèverait d'une entête.
+				Cette entête peut être celle d'une section, d'un article, d'une navigation ou du document en entier.
+				Bien qu'un même document puisse contenir plusieurs <header>, 
+				il est important de ne saisir qu'une seule balise <header> à un même niveau.
+				Par exemple, une même <section> *ne pourrait pas* contenir deux balises <header>
+			 -->
+			<header>
+				<h1>Hypertext Markup Language</h1>
+				<p><b>Le HyperText Markup Language, généralement abrégé HTML ou dans sa dernière version HTML5, est le langage de balisage conçu pour représenter les pages web.</b></p>
+			</header>
+
+			<!-- 
+				La balise <figure> sert à contenir du contenu (p. ex. un tableau, un graphique ou une image) 
+				qui pourrait être déplacé dans une annexe.
+			 -->
+			<figure>
+				<img width="500" src="nicolas.jpg" alt="The Ghost Rider — Nick Cage">
+				<figcaption>Une image de Nick Cage servant à représenter le concept de « figure ».</figcaption>
+			</figure>
+
+			<!-- 
+				La balise <div> enveloppe du contenu de manière générique. 
+				Aucun sens n'est impliqué par son usage. On l'utilise pour générer des *divisions* arbitraires, 
+				nécessaires pour la composition visuelle, par exemple.
+			 -->
+			<div>
+				<p>C’est un langage permettant d’écrire de l’hypertexte, d’où son nom. HTML permet également de structurer sémantiquement la page, de mettre en forme le contenu, de créer des formulaires de saisie, d’inclure des ressources multimédias dont des images, des vidéos, et des programmes informatiques. Il permet de créer des documents interopérables avec des équipements très variés de manière conforme aux exigences de l’accessibilité du web. Il est souvent utilisé conjointement avec le langage de programmation JavaScript et des feuilles de style en cascade (CSS). HTML est inspiré du Standard Generalized Markup Language (SGML). Il s'agit d'un format ouvert.</p>
+			</div>
+	
+			<!-- 
+				La balise <section> est utilisée pour marquer et délimiter des sections dans le contenu.
+				Un peu comme on le ferait dans un document Word, par exemple. 
+				Elle devrait normalement contenir un titre.
+			 -->
+			<section>
+				<!-- 
+					Une section pour contenir à la fois une balise <header> et <footer>. 
+					Comme les balises <article>, <aside> ou <nav>, par ailleurs. 
+					Il toujours important que chacune de ces balises ne contiennent 
+					qu'un seul <header> et <footer> à la fois.
+				 -->
+				<header>
+					<h2 id="denomination">Dénominations</h2>
+				</header>
+
+				<p>L’anglais Hypertext Markup Language se traduit littéralement en langage de balisage d’hypertexte. On utilise généralement le sigle HTML, parfois même en répétant le mot « langage » comme dans « langage HTML ». Hypertext est parfois écrit HyperText pour marquer le T du sigle HTML.</p>
+				
+				<p>Le public non averti parle parfois de HTM au lieu de HTML, HTM étant l’extension de nom de fichier tronquée à trois lettres, une limitation qu’on trouve sur d’anciens systèmes d’exploitation de Microsoft.</p>
+
+				<footer>
+					<a href="#">Retour au haut de la page</a>
+				</footer>
+			</section>
+			
+			<section>
+				<h2>Évolution du langage</h2>
+			
+				<p>Durant la première moitié des années 1990, avant l’apparition des technologies web comme le langage JavaScript (js), les feuilles de style en cascade (css) et le Document Object Model (Dom), l’évolution de HTML a dicté l’évolution du World Wide Web. Depuis 1997 et HTML 4, l’évolution de HTML a fortement ralenti ; 10 ans plus tard, HTML 4 reste utilisé dans les pages web. En 2008, la spécification du HTML5 est à l’étude et devient d'usage courant dans la seconde moitié des années 2010.</p>
+			</section>
+		</article>
+	</main>
+
+	<!-- 
+		La balise <aside> sert à indiquer qu'un ensemble de contenu se veut complémentaire ou supplémentaire.
+		Bref, le contenu qu'elle contient n'est pas nécessaire à la compréhension du contenu principal du document.
+	 -->
+	<aside>
+		<h2>Pour en savoir plus</h2>
+		<ul>
+			<li>Blabla</li>
+			<li>Blibli</li>
+			<li>Blublu</li>
+			<li>Bloblo</li>
+		</ul>
+	</aside>
+	
+	<!-- 
+		La balise <nav> sert à marquer du contenu de navigation. 
+		Généralement des liens formant l'arborescence du site Web, 
+		liens qui permettent aux visiteurs de parcourir les pages du site.
+	 -->
+	<nav>
+		<h2>Navigation</h2>
+		<ul>
+			<li><a href="">Accueil</a></li>
+			<li><a href="">À propos</a></li>
+			<li><a href="">Biographie</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+	</nav>
+
+	<!-- 
+		La balise <footer> sert à signifier le « pied » d'un ensemble de contenu. 
+		Cette « pied » peut être celui d'une section, d'un article, d'une navigation ou du document en entier.
+		Bien qu'un même document puisse contenir plusieurs <footer>, 
+		il est important de ne saisir qu'une seule balise <footer> à un même niveau.
+		Par exemple, une même <section> *ne pourrait pas* contenir deux balises <footer>
+	 -->
+	<footer>
+		<p>Tous droits réservés © 2020</p>
+	</footer>
+</body>
+
+</html>

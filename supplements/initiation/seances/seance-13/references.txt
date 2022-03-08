@@ -1,0 +1,9 @@
+# Séance #13 — Références
+
++ [Architecture de l'information](https://fr.wikipedia.org/wiki/Architecture_de_l%27information)
++ [Flat vs. Deep Website Hierarchies (anglais seulement)](https://www.nngroup.com/articles/flat-vs-deep-hierarchy/)
++ [Semantic navigation with the nav element (anglais seulement)](http://html5doctor.com/nav-element/)
++ [Navigation in Lists: To Be or Not To Be (anglais seulement)](https://css-tricks.com/navigation-in-lists-to-be-or-not-to-be/)
++ [The `<nav>` element (anglais seulement)](https://html.spec.whatwg.org/multipage/sections.html#the-nav-element)
++ [FlowMapp — outil de stratégie UX (anglais seulement)](https://app.flowmapp.com/)
++ [Octopus — Créateur d'arborescence (anglais seulement)](https://octopus.do/)

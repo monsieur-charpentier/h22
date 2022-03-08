@@ -1,0 +1,17 @@
+# Exercice #09 — Organiser le site d'un restaurant
+
+1. Ouvrez le dossier `site` dans VSCode puis démarrez « Live Server » dans ce dossier.
+2. Prenez connaissance des fichiers HTML numérotés. Regardez leurs titres dans la balise `<title>`.
+3. Établissez une structure d'organisation qui soit logique en fonction des titres de pages observés. Gardez les noms à l'essentiel, évitez tout caractère spécial et espace.
+4. Une fois la structure établie, créez une navigation permettant l'accès à chacune des pages. Les références de type absolu (commençant par « / ») seront plus faciles à gérer.
+5. Assurez-vous de prioriser les éléments en fonction de leur importance pour l'usager.
+6. Vérifiez le bon fonctionnement de votre navigation.
+7. Collez la navigation dans chacune des pages tout en retirant, pour chacune, le lien sur son propre item de navigation.
+
+<style type="text/css">
+    @media print {
+        body {
+            all: initial;
+        }
+    }
+</style>

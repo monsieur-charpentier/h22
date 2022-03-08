@@ -1,0 +1,180 @@
+/* Styles génériques de base ----------------------- */
+	/* Enlever toutes marges */
+	* {
+		padding: 0;
+		margin: 0;
+	}
+	/* Restreindre les images aux dimensions
+		de leur parent. Éviter l'espace de 
+		la hauteur de ligne (inline vs. block) */
+	img {
+		max-width: 100%;
+		display: block;
+	}
+	/* Donner un arrière-plan composable 
+		aux blocs sémantiques vides */
+	header,footer, main, aside, article {
+		background-color: #a0daff80;
+	}
+
+
+/* Utilitaires ----------------------- */
+	/* Conteneur de grille */
+	.grille {
+		display: flex;
+		margin-left: -20px;
+		margin-top: -20px;
+		flex-wrap: wrap;
+	}
+
+	.grille>* {
+		box-sizing: border-box;
+		flex-shrink: 0;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+
+/* Composition ----------------------- */
+	/* Corps de la page */
+	body {
+		/* conforme à la grille maîtresse commençant
+			par des *colonnes* (voir ci-bas) */
+		width: calc(100% / (12 / 10));
+		
+		/* conforme à la grille maîtresse commençant
+			par des *gouttières* (voir ci-bas) */
+		/*width: calc(100% / (12 / 10) - (20px * 2));*/
+		
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* Entête principale */
+	body>header {
+		padding: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	/* Section principale */
+	body>div>main {
+		padding: 20px;
+		width: calc(100% / (10 / 7) - 20px);
+	}
+		/* Rythme interne à la 
+			section principale */
+		body>div>main>*+* {
+			margin-top: 20px;
+		}
+		/* Donner une hauteur minimale
+			aux enfants vides de la
+			section principale 
+			(pour les voir à l'écran) */
+		body>div>main>* {
+			min-height: 50px;
+		}
+
+	/* Barre latérale */
+	body>div>aside {
+		width: calc(100% / (10 / 3) - 20px);
+		padding: 20px;
+	}
+
+	/* Grille d'articles */
+	div>article {
+		min-height: 150px;
+		padding: 20px;
+	}
+
+/* Adaptation de la grille d'articles 
+	!! Commentez deux des trois méthodes ci-dessous pour activer 
+		le comportement de l'autre (non-commentée) !! */
+
+	
+	/* Méthode « fluide » avec 
+		gestion intrinsèque au contenu de la composition */
+		
+		div>article {
+			flex-basis: calc(100% / 4 - 20px);
+			min-width: 20ch;
+			flex-grow: 1;
+		}
+
+	/* Méthode « adaptative » et manuelle avec points de rupture 
+		(requêtes média) du plus ÉTROIT au plus LARGE  */
+
+		/* div>article {
+			flex-basis: calc(100%  - 20px);
+		}
+
+		@media (min-width: 900px) {
+			div>article {
+				flex-basis: calc(100% / 2 - 20px);
+			}
+		}
+
+		@media (min-width: 1280px) {
+			div>article {
+				flex-basis: calc(100% / 3 - 20px);
+			}
+		}
+
+		@media (min-width: 1700px) {
+			div>article {
+				flex-basis: calc(100% / 4 - 20px);
+			}
+		} */
+
+/* Méthode « adaptative » et manuelle avec points de rupture 
+		(requêtes média) du plus LARGE au plus ÉTROIT  */
+
+		/* div>article {
+			flex-basis: calc(100% / 4 - 20px);
+		}
+
+		@media (max-width: 1700px) {
+			div>article {
+				flex-basis: calc(100% / 3 - 20px);
+			}
+		}
+
+		@media (max-width: 1280px) {
+			div>article {
+				flex-basis: calc(100% / 2 - 20px);
+			}
+		}
+
+		@media (max-width: 900px) {
+			div>article {
+				flex-basis: calc(100% - 20px);
+			}
+		} */
+
+
+
+/* Utilitaires de développement ----------------------- */
+	/* Affichage des guides de la grille maîtresse */
+	.dev-grid:after {
+		content: "";
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		display: block;
+		
+		/* grille commençant par les *colonnes* */
+		background-image:
+		 linear-gradient(to right, transparent calc(100% - 20px), #ff000010 0);
+		background-size: calc(100% / 12 + 20px / 12) 100%;
+		
+		/* grille commençant par les *gouttières* */
+		/*background-image:
+		 linear-gradient(to right, #ff000010 20px, transparent 0);
+		background-size: calc(100% / 12 - 20px / 12) 100%;*/
+	}
+	/* Affichage des bornes des balises */
+	.dev-outline * {
+		outline: 1px dashed red; 
+	}

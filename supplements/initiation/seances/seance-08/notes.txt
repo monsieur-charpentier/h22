@@ -1,0 +1,132 @@
+# Séance #08 — Résumé, exemples et références
+
+## Ergonomie : utile & utilisable
+
+### L'utilité : pourquoi notre page existe-t-elle ?
+
+- Notion de besoin
+- Objectif à atteindre
+    
+### L'utilisabilité : l'efficacité, l'efficience et la satisfaction
+
+Définition selon la norme ISO 9241 :  « L’utilisabilité est le degré selon lequel un produit peut être utilisé par des utilisateurs identifiés, pour atteindre des buts définis avec efficacité, efficience et satisfaction, dans un contexte d’utilisation spécifié. »
+
+#### Facteurs de qualité
+
+Les exemples ci-bas ne sont pas exclusifs. Plusieurs sites pourraient se retrouver aussi dans d'autres catégories.
+
+- Simplicité
+    + Facile d'appréhension. Ne contient que ce dont on a besoin pour permettre l'atteinte des objectifs, une étape à la fois.
+        * [Viget](https://www.viget.com/)
+        * [Happy Cog](https://www.happycog.com/)
+        * [Deux Huit Huit](https://deuxhuithuit.co)
+        - [A2Dominion](https://a2dominion.co.uk/)
+        - [~~Delisoft~~](https://delisoft.ca/conception-site-web-Joliette/)
+        - [~~BanQ~~](https://www.banq.qc.ca/accueil/)
+        * [~~University of Advanced Technology~~](https://www.uat.edu/)
+        - [~~Locomotive~~](https://locomotive.ca/)
+- Hiérarchie
+    + Des niveaux de priorités et de taxonomie sont établis en fonction du modèle mental des usagers.
+        * [Musée des Beaux-Arts de Montréal](https://www.mbam.qc.ca/fr/)
+        * [Audubon](https://www.audubon.org/)
+        * [Oscar](https://www.hioscar.com/)
+        * [Santé Montérégie](https://santemonteregie.qc.ca/)
+        * [Fitness à rabais](https://fitnessarabais.com/)
+        * [~~Cscience~~](https://www.cscience.ca/)
+        * [~~Saint-Lin~~](https://www.saint-lin-laurentides.com/)
+        * [~~Leicester~~](https://www.leicesterma.org/)
+        * [~~Arngren~~](http://arngren.net/)
+- Navigabilité
+    + L'utilisateur peut parcourir efficacement l'éventail de contenus, en fonction de ses préférences.
+        - [Biron](https://biron.com)
+        - [Santé Montérégie](https://santemonteregie.qc.ca/)
+        - [NN Group](https://www.nngroup.com/)
+        * [~~Arngren~~](http://arngren.net/)
+- Constance
+    + Les codes, symboles et repères demeurent d'une page à l'autre. Évite ainsi les surprises et la confusion.
+        * [NN Group](https://www.nngroup.com/)
+        * [Clearleft](https://clearleft.com)
+        * [~~Arngren~~](http://arngren.net/)
+- Familiarité
+    + Ressemble à ce qu'on connaît. Intègre des symboles, applique des codes et place des repères reconnus.
+        - [NN Group](https://www.nngroup.com/)
+        - [Deux Huit Huit](https://deuxhuithuit.co)
+        - [~~Locomotive~~](https://locomotive.ca/)
+        - [~~Yale School of Art~~](https://www.art.yale.edu/)
+- Universalité
+    + Peut être compris de tous, dans tous les contextes d'utilisation.
+        - [Santé Montérégie](https://santemonteregie.qc.ca/)
+        - [Austin Chamber](https://www.austinchamber.com/)
+        - [Root Studio](https://rootstudio.co.uk/)
+        - [~~Locomotive~~](https://locomotive.ca/)
+        - [~~Fitness à rabais~~](https://fitnessarabais.com/)
+- Fonctionnalité
+    + Présente les moyens « mécaniques » nécessaires à la satisfaction des objectifs.
+        - [Wildlife Photographer of the Year](https://www.nhm.ac.uk/wpy/)
+        - [Locomotive](https://locomotive.ca/)
+        - [Oscar](https://www.hioscar.com/)
+        - [Casper](https://casper.com/ca/fr/)
+        - [A2Dominion](https://a2dominion.co.uk/)
+- Fiabilité
+    + Le système répondra de manière correcte et attendue, sans erreurs ou instabilités.
+- Tolérance
+    -  Les erreurs de l'utilisateur sont pardonnées.
+- Efficience
+    + Permette l'atteinte de la satisfaction avec le moins de ressources possible.
+        - [Santé Montérégie](https://santemonteregie.qc.ca/)
+        - [Biron](https://biron.com)
+
+### Utile & utilisable mais pour qui ?
+
+#### Conception en fonction de l'utilisateur & création d'un « persona »
+
+- Quels sont ses objectifs, ses enjeux ?
+- Quel âge a-t-il ?
+- Quelle est son attitude, son humeur ?
+- Quel est son degré de proficience technologique ?
+- À quelle fréquence visite-t-il le site ?
+- Quel est son contexte de visite ?
+- Quel(s) appareil(s) utilise-t-il ?
+- Quelles applications est-il sujet à utiliser ?
+
+### Tout est relatif...
+
+Il faudra souvent prendre des décisions difficiles en fonction de sa base d'utilisateurs et du contexte d'utilisation.
+
+- Devrais-je utiliser une structure de titres (h1... h6) absolue ou relative ?
+- Devrais-je investir dans une accessibilité plus poussée ?
+- etc.
+
+## Les références à conserver
+
+### Introductions et définitions
+
++ [Wiki Ergonomie](https://fr.wikipedia.org/wiki/Ergonomie_informatique)
++ [Wiki Utilisabilité](https://fr.wikipedia.org/wiki/Utilisabilit%C3%A9)
++ [Définition utilisabilité ou usabilité](https://www.usabilis.com/definition-utilisabilite-usabilite/)
++ [Architecture de l'information](https://fr.wikipedia.org/wiki/Architecture_de_l%27information)
+
+### Conseils pratiques en utilisabilité
+
++ [Usability 101: Introduction to Usability (anglais seulement)](https://www.nngroup.com/articles/usability-101-introduction-to-usability/)
++ [9 Guidelines for Exceptional Web Design, Usability, and User Experience (anglais seulement)](https://blog.hubspot.com/blog/tabid/6307/bid/30557/6-guidelines-for-exceptional-website-design-and-usability.aspx)
++ [Ten usability heuristics (anglais seulement)](https://www.nngroup.com/articles/ten-usability-heuristics/)
+
+### Hiérarchie & Architecture d'information
+
++ [FlowMapp — Création d'arborescences (anglais seulement)](https://app.flowmapp.com/)
++ [Information and Information Architecture: The Big Picture (anglais seulement)](https://www.smashingmagazine.com/2020/07/information-architecture-big-picture/)
+
+### Les personas
+
++ [Wiki Persona](https://fr.wikipedia.org/wiki/Persona_(ergonomie))
++ [Personas vs. Jobs-to-be-done (anglais seulement)](https://www.nngroup.com/articles/personas-jobs-be-done/)
++ [Personas Make Users Memorable for Product Team Members (anglais seulement)](https://www.nngroup.com/articles/persona/)
++ [Why Personas Fail](https://www.nngroup.com/articles/why-personas-fail/)
++ [Apprendre à construire des personas](https://www.weloveusers.com/partage/cours/apprendre-personas.html)
+
+### Coffres au trésor du savoir en ergonomie (à ne pas négliger !)
+
++ [Baymard Institute (anglais seulement)](https://baymard.com/)
++ [NN Group (anglais seulement)](https://www.nngroup.com)
+

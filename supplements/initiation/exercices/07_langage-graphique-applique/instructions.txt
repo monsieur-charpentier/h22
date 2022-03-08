@@ -1,0 +1,87 @@
+# Exercice #07 — Appliquer un langage graphique à une structure
+
+1. Prenez connaissance du langage graphique inclus ci-dessous.
+2. Prenez connaissance de la structure HTML dans le fichier `structure.html`.
+3. Créez un fichier `main.css` dans un dossier approprié.
+4. Grâce à la balise conçue à cet effet, liez le fichier CSS à la structure HTML.
+4. En gardant en tête les règles et principes de la communication graphique, appliquez le langage graphique à la structure HTML.
+5. Tâchez de minimiser la spécificité de vos sélecteurs.
+6. Évaluez l'esthétique générale de votre application.
+7. Apportez les correctifs nécessaires pour atteindre une composition qui soit esthétiquement adéquate et respectueuse des principes de la communication graphique.
+8. Plusieurs compositions esthétiquement viables sont possibles ! Expérimentez. Nous regarderons vos œuvres ensemble lors de la prochaine séance.
+
+---
+
+## Langage graphique à appliquer
+
+Vous n'êtes pas obligé d'utiliser toutes les valeurs ci-dessous.
+
+### Palette de couleur
+
+- Orange : #FF611C
+- Bleu : rgb(42, 158, 217)
+- Gris : #e8eef3
+- Noir : #1B2936
+- Blanc : #ffffff
+
+
+### Échelle rythmique
+
+- 0.1rem
+- 0.3rem
+- 0.5rem
+- 1rem
+- 1.8rem
+- 2.6rem
+- 3.4rem
+- 5.2rem
+- 6.2rem
+- 8rem
+- 10rem
+
+### Dimensions
+
+- 25rem
+- 35rem
+- 41rem
+- 50rem
+- 60rem
+- 68.8rem
+- 82rem
+- 101rem
+
+### Polices de caractères
+
+- Rubik
+
+### Échelle typographique
+
+#### Tailles de caractère
+
+- 11px
+- 13px
+- 15px
+- 18px
+- 21px
+- 24px
+- 28px
+- 35px
+- 45px
+- 56px
+
+#### Hauteurs de ligne
+
+- 1.02em
+- 1.1625em
+- 1.3em
+- 1.5em
+- 1.8em
+- 2.1em
+
+<style type="text/css">
+    @media print {
+        body {
+            all: initial;
+        }
+    }
+</style>

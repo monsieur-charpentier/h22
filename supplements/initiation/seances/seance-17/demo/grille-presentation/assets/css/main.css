@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'made_mirage';
+    src: url('../fonts/mademirage_400-webfont.woff2') format('woff2'),
+         url('../fonts/mademirage_400-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_mirage';
+    src: url('../fonts/mademirage-medium_500-webfont.woff2') format('woff2'),
+         url('../fonts/mademirage-medium_500-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_mirage';
+    src: url('../fonts/mademirage-thin_250-webfont.woff2') format('woff2'),
+         url('../fonts/mademirage-thin_250-webfont.woff') format('woff');
+    font-weight: 250;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_mirage';
+    src: url('../fonts/mademirage-black_900-webfont.woff2') format('woff2'),
+         url('../fonts/mademirage-black_900-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_mirage';
+    src: url('../fonts/mademirage-bold_700-webfont.woff2') format('woff2'),
+         url('../fonts/mademirage-bold_700-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'made_mirage', sans-serif;
+	font-weight: 900;
+}
+
+main {
+	padding: 20px;
+}
+
+.grille {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+
+.grille>* {
+	margin-left: 20px;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+
+@media all {
+	.grille>* {
+		flex-basis: calc(100% - 20px);
+	}
+}
+
+@media (min-width: 520px) {
+	.grille>* {
+		flex-basis: calc(100% / 2 - 20px);
+	}
+}
+
+@media (min-width: 700px) {
+	.grille>* {
+		flex-basis: calc(100% / 3 - 20px);
+	}
+}
+
+@media (min-width: 160ch) {
+	.grille>* {
+		flex-basis: calc(100% / 4 - 20px);
+	}
+}
+
+@media (min-width: 200ch) {
+	.grille>* {
+		flex-basis: calc(100% / 5 - 20px);
+	}
+}
+
+
+@media (min-width: 240ch) {
+	.grille>* {
+		flex-basis: calc(100% / 6 - 20px);
+	}
+}
+
+
+
+
+article {
+	padding: 20px;
+	background-color: yellow;
+	min-width: 20ch;
+}
+
+div {
+	padding: 20px;
+	background-color: rosybrown;
+	color: white;
+	min-width: 20ch;
+}

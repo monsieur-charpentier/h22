@@ -1,0 +1,258 @@
+
+/* Styles génériques de base ----------------------- */
+	/* Enlever toutes marges */
+	* { 
+		padding: 0; 
+		margin: 0; 
+	}
+	
+	/* Restreindre les images aux dimensions
+		de leur parent. Éviter l'espace de 
+		la hauteur de ligne (inline vs. block) */
+	img {
+		max-width: 100%;
+		display: block;
+		object-fit: cover; 
+	}
+	
+	/* Garder la puce à l'intérieur 
+		de la colonne de texte */
+	ul { 
+		padding-left: 1.1em; 
+	}
+
+
+/* Rythme des contenus ----------------------- */
+	
+	*+p, *+img, *+hr, *+ul,
+	*+h1, *+h2, *+h3, *+h4, *+h5, *+h6 {
+		margin-top: 1.5625rem; 
+	}
+	
+	*+li { 
+		margin-top: calc(1.5625rem / 2); 
+	}
+
+
+/* Distribution de l'échelle typographique ----------------------- */
+
+	:root { 
+		font-family: -apple-system, "Helvetica Neue", "Avenir Next"; 
+		line-height: 1.5625rem;
+	}
+
+	h1 { 
+		font-size: 32px;
+		line-height: calc(1.5625rem * 1.5); 
+	}
+
+	h2 { 
+		font-size: 28px;
+		line-height: calc(1.5625rem * 1.5); 
+	}
+
+	h3 { 
+		font-size: 22px;
+		line-height: calc(1.5625rem * 1); 
+	}
+
+	h4 { 
+		font-size: 16px;
+		line-height: calc(1.5625rem * 1); 
+	}
+
+
+/* Adaptation de l'échelle typographique ----------------------- */
+
+	@media (min-width: 40em) {
+		h1 { 
+			font-size: 40px;
+			line-height: calc(1.5625rem * 2); 
+		}
+
+		h2 { 
+			font-size: 32px;
+			line-height: calc(1.5625rem * 1.5); 
+		}
+
+		h3 { 
+			font-size: 22px;
+			line-height: calc(1.5625rem * 1); 
+		}
+
+		h4 { 
+			font-size: 18px;
+			line-height: calc(1.5625rem * 1); 
+		}
+	}
+
+	@media (min-width: 60em) {
+		h1 { 
+			font-size: 50px;
+			line-height: calc(1.5625rem * 2.5); 
+		}
+
+		h2 { 
+			font-size: 40px;
+			line-height: calc(1.5625rem * 2); 
+		}
+
+		h3 { 
+			font-size: 32px;
+			line-height: calc(1.5625rem * 1.5); 
+		}
+
+		h4 { 
+			font-size: 22px;
+			line-height: calc(1.5625rem * 1); 
+		}
+	}
+
+
+	@media (min-width: 80em) {
+		h1 { 
+			font-size: 64px;
+			line-height: calc(1.5625rem * 3); 
+		}
+
+		h2 { 
+			font-size: 45px;
+			line-height: calc(1.5625rem * 2); 
+		}
+
+		h3 { 
+			font-size: 32px;
+			line-height: calc(1.5625rem * 1.5); 
+		}
+
+		h4 { 
+			font-size: 22px;
+			line-height: calc(1.5625rem * 1); 
+		}
+	}
+
+
+/* Composition ----------------------- */
+	/* Centrer dans la fenêtre */
+	.corps-page {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	/* Limiter l'espace occupé 
+		dans une fenêtre large */
+	.corps-page {
+		width: calc(100% - 1.5625rem);
+		max-width: calc(100em - (1.5625rem * 2));
+	}
+
+	.entete-page {
+		margin-top: 1.5625rem;
+	}
+
+	.contenu-principal {
+		width: 100%;
+		flex-grow: 1;
+	}
+		/* Rythme interne */
+		.contenu-principal>*+* {
+			margin-top: 1.5625rem;
+		}
+
+	.barre-laterale {
+		width: 100%;
+		flex-grow: 1;
+	}
+
+	.pied-page {
+		margin-top: 1.5625rem;
+		margin-bottom: 1.5625rem;
+	}
+
+	.grille>.carte-article {
+		width: calc(50% - 1.5625rem);
+		flex-grow: 1;
+	}
+
+/* Adaptation de la composition ----------------------- */
+	@media (min-width: 30em) and (max-width: 60em) { 
+		/* Texte sur deux colonnes lorsque nécessaire 
+			pour une meilleure lisibilité. */
+		.barre-laterale { 
+			columns: 2; 
+			column-gap: 1.5625rem; 
+		} 
+	}
+
+	@media (min-width: 40em) {
+		.corps-page {
+			width: calc(100% - (1.5625rem * 2));
+		}
+	}
+
+	@media (min-width: 60em) {
+		.contenu-principal {
+			width: calc(100% / (10 / 7) - 1.5625rem);
+		}
+
+		.barre-laterale {
+			width: calc(100% / (10 / 3) - 1.5625rem);
+		}
+
+		.grille>.carte-article {
+			width: calc(100% / 4 - 1.5625rem);
+		}
+	}
+
+
+	@media (min-width: 80em) {
+		.contenu-principal {
+			width: calc(100% / (11 / 7) - 1.5625rem);
+		}
+
+		.barre-laterale {
+			width: calc(100% / (11 / 3) - 1.5625rem);
+		}
+
+		.grille>.carte-article {
+			width: calc(10em - 1.5625rem);
+		}
+	}
+
+	@media (min-width: 100em) {
+		.contenu-principal {
+			width: calc(100% / (12 / 7) - 1.5625rem);
+			margin-right: calc(100% / 12);
+		}
+
+		.barre-laterale {
+			width: calc(100% / (12 / 3) - 1.5625rem);
+		}
+	}
+
+
+/* Utilitaires ----------------------- */
+	
+	/* Conteneur de grille générique
+		accueillant un nombre indéfini d'éléments */
+	.grille {
+		display: flex;
+		margin-left: calc(-1 * 1.5625rem);
+		margin-top: calc(-1 * 1.5625rem);
+		flex-wrap: wrap; 
+	}
+	
+	/* Donner un rythme dans le cas où
+		la grille n'est pas seule à son niveau. */
+	*+.grille {
+		margin-top: 0; 
+	}
+	
+	/* Éléments de la grille séparés
+		par un rythme général sur les deux axes */
+	.grille>* {
+		box-sizing: border-box;
+		margin-left: 1.5625rem;
+		margin-top: 1.5625rem;
+		max-width: 100%; 
+	}

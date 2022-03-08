@@ -1,0 +1,18 @@
+# Exercice #3 — Fiche de recette structurée
+
+1. Copiez dans un nouveau dossier le fichier `index.html` créé dans l'exercice #2.
+2. Ouvrez dans votre éditeur de texte (VSCode) _le dossier_ contenant le nouveau fichier `index.html` et démarrez la prévisualisation en direct (GO LIVE dans la barre d'état au bas de la fenêtre).
+3. Structurez de manière sémantique le texte balisé qui s'y trouve. Pour ce faire, utilisez les balises structurelles vues dans la séance #4. Aidez-vous du schéma décisionnel prévu à cet effet.
+4. Prévisualisez en direct (avec Google Chrome) à mesure que vous sauvegardez votre fichier `index.html`.
+5. Lorsque vous avez terminé de structurer la page, validez-la à l'aide du [validateur W3C](https://validator.w3.org/). Pour ce faire, copiez l'intégralité de votre code HTML et collez-le dans la zone prévue à cet effet.
+6. Appliquez les ajustements proposés par le W3C puis assurez-vous une dernière fois de la validité de votre code en répétant l'étape #5 ci-dessus.
+
+
+<style type="text/css">
+    @media print {
+        body {
+            all: initial;
+        }
+    }
+</style>
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Formulaire d'appréciation</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Marc-André Charpentier">
+	<meta name="description" content="Votre opinion compte pour nous ! Laissez ici votre appréciation de nos services.">
+	<style>
+	/* Appliquer un rythme vertical */
+		/* sur les parents */
+		form>*+* {
+			margin-top: 20px;
+		}
+		/* et les enfants */
+		*+label {
+			margin-top: 10px;
+			display: inline-block;
+		}
+		/* Forcer les champs (mais non les cases) à prendre tout l'espace nécessaire */
+		input:not([type=checkbox]):not([type=radio]),
+		select, textarea {
+			width: 100%;
+			box-sizing: border-box;
+		}
+		/* Créer une composition plus équilibrée et améliorer la lisibilité */
+		body {
+			max-width: 26em; /* Limiter la largeur du corps de la page */
+			margin: auto; /* Centrer le contenu */
+		}
+		/* Placer aux extrémités le sens des deux bornes du champ « Note »  */
+		small {
+			display: block;
+			text-align-last: justify;
+		}
+		small span {
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Formulaire d'appréciation</h1>
+		<p>Parlez-nous de votre expérience dans notre point de service. Nous sommes à l'écoute de vos impressions.</p>
+	</header>
+	<main>
+		<!-- Créer votre formulaire ici -->
+	</main>
+</body>
+</html>

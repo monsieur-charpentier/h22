@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+	<title>Exercice — Grilles</title>
+</head>
+<body>
+
+	<header>
+		<h1>ACME — Communauté musicale</h1>
+	</header>
+
+	<nav>
+		<div>
+			<a href="">Critiques</a>
+			<a href="">Chartes</a>
+			<a href="">Nouvelles</a>
+			<a href="">Communauté</a>
+			<a href="">Blog</a>
+		</div>
+		<aside aria-label="Navigation secondaire">
+			<a href="">Connexion</a>
+			<a href="">Consulter les genres</a>
+			<a href="">Nouveautés</a>
+			<a href="">Critiques sélectionnées</a>
+			<a href="">Le meilleur du récent</a>
+			<aside aria-label="Zone de recherche">
+				<label for="search-input" class="invisible">Recherche</label>
+				<input id="search-input" placeholder="Trouvez un groupe" type="search">
+				<span>🔍</span>
+			</aside>
+		</aside>
+	</nav>
+
+	<main>
+		<header>
+			<h2 class="invisible">Dernière sorties vedettes</h2>
+			<div class="conteneur-obligatoire">
+				<article class="vignette">
+					<figure></figure>
+					<h3>Nom de l'artiste<br /><span class="invisible">: </span>
+						<small>Nom de l'album</small>
+					</h3>
+					<p>Description courte d'une phrase ou deux maximum.</p>
+				</article>
+				<article class="vignette">
+					<figure></figure>
+					<h3>Nom de l'artiste<br /><span class="invisible">: </span>
+						<small>Nom de l'album</small>
+					</h3>
+					<p>Description courte d'une phrase ou deux maximum.</p>
+				</article>
+				<article class="vignette">
+					<figure></figure>
+					<h3>Nom de l'artiste<br /><span class="invisible">: </span>
+						<small>Nom de l'album</small>
+					</h3>
+					<p>Description courte d'une phrase ou deux maximum.</p>
+				</article>
+				<article class="vignette">
+					<figure></figure>
+					<h3>Nom de l'artiste<br /><span class="invisible">: </span>
+						<small>Nom de l'album</small>
+					</h3>
+					<p>Description courte d'une phrase ou deux maximum.</p>
+				</article>
+			</div>
+		</header>
+		<section>
+			<header>
+				<h2>Critiques sélectionnées</h2>
+				<a href="">afficher plus</a>
+			</header>
+			<article class="vignette">
+				<figure></figure>
+				<h1>Nom de l'artiste</h1>
+				<p>Description courte d'une phrase ou deux maximum.</p>
+			</article>
+			<article class="vignette">
+				<figure></figure>
+				<h1>Nom de l'artiste</h1>
+				<p>Description courte d'une phrase ou deux maximum.</p>
+			</article>
+			<h4>Critiques du public</h4>
+			<article class="vignette">
+				<figure></figure>
+				<aside aria-label="Note de l'utilisateur">
+					<span>★★☆☆☆</span>
+					<h5>Nom de l'utilisateur</h5>
+				</aside>
+				<h1>Nom de l'artiste</h1>
+				<h3>Nom de l'album</h3>
+			</article>
+		</section>
+		<section>
+			<header>
+				<h2>Nouveaux commentaires</h2>
+			</header>
+			<nav aria-label="Filtres de commentaires">
+				<a href="">Tout</a>
+				<a href="">Critiques</a>
+				<a href="">Nouvelles</a>
+				<a href="">Listes</a>
+			</nav>
+			<ul class="commentaires">
+				<li>
+					<h5>Titre du fil de commentaires</h5>
+					<h6>par le nom de l'utilisateur</h6>
+				</li>
+				<li>
+					<h5>Titre du fil de commentaires</h5>
+					<h6>par le nom de l'utilisateur</h6>
+				</li>
+				<li>
+					<h5>Titre du fil de commentaires</h5>
+					<h6>par le nom de l'utilisateur</h6>
+				</li>
+				<li>
+					<h5>Titre du fil de commentaires</h5>
+					<h6>par le nom de l'utilisateur</h6>
+				</li>
+			</ul>
+		</section>
+	</main>
+	
+	<aside aria-label="Contenu supplémentaire">
+		<section>
+			<header>
+				<h2>Nouvelles musicales</h2>
+				<a href="">afficher plus</a>
+			</header>
+			<ul>
+				<li>
+					<a href="">Titre de la nouvelle</a>
+				</li>
+				<li>
+					<a href="">Titre de la nouvelle</a>
+				</li>
+				<li>
+					<a href="">Titre de la nouvelle</a>
+				</li>
+				<li>
+					<a href="">Titre de la nouvelle</a>
+				</li>
+			</ul>
+		</section>
+		<section>
+			<header>
+				<h2>Albums populaires</h2>
+			</header>
+			<ul class="palmares">
+				<li>
+					<h4>
+						<a href="">Nom de l'artiste <small>Titre de l'album</small></a>
+					</h4>
+				</li>
+				<li>
+					<h4>
+						<a href="">Nom de l'artiste <small>Titre de l'album</small></a>
+					</h4>
+				</li>
+				<li>
+					<h4>
+						<a href="">Nom de l'artiste <small>Titre de l'album</small></a>
+					</h4>
+				</li>
+				<li>
+					<h4>
+						<a href="">Nom de l'artiste <small>Titre de l'album</small></a>
+					</h4>
+				</li>
+			</ul>
+		</section>
+	</aside>
+	
+	<footer>
+		<nav aria-label="Contact et contributeurs">
+			<a href="">Contributeurs</a>
+			<a href="">Forum</a>
+			<a href="">Contactez-nous</a>
+		</nav>
+		<span>Tous droits réservés © ACME — Communauté musicale</span>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,59 @@
+body {
+	margin: 20px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+body>div {
+	
+}
+
+body>div:nth-of-type(1) {
+	background-color: orange;
+}
+
+body>div:nth-of-type(1)>img {
+	background-color: transparent;
+}
+
+body>div:nth-of-type(2) {
+	background-color: red;
+}
+
+body>div:nth-of-type(2)>div {
+	background-color: cyan;
+}
+
+
+body>div:nth-of-type(3) {
+	background-color: yellow;
+}
+
+
+body>div:nth-of-type(4) {
+	background-color: green;
+}
+
+
+body>div:nth-of-type(5) {
+	background-color: pink;
+}
+
+
+body>div:nth-of-type(6) {
+	background-color: blue;
+}
+
+
+body>div:nth-of-type(7) {
+	background-color: brown;
+}
+
+
+body>div:nth-of-type(8) {
+	background-color: indigo;
+}
+

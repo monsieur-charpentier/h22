@@ -1,0 +1,5 @@
+# Séance #04 — Références
+
++ [Structures et sections d'un document HTML5](https://developer.mozilla.org/fr/docs/Web/HTML/Sections_and_Outlines_of_an_HTML5_document)
++ [Sections (anglais seulement)](https://html.spec.whatwg.org/multipage/sections.html)
++ [HTML5 Sectioning Element Flowchart (anglais seulement)](http://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)

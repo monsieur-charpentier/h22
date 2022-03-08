@@ -1,0 +1,478 @@
+/*---------------------------------------*/
+
+/* Base */
+/* Normaliser et modifier certains 
+	comportements par défaut */
+
+/* Retirer les marges par défaut */
+body, figure {
+	margin: 0;
+}
+
+/* Rétablir les couleurs des liens visités */
+a:visited {
+	color: inherit;
+}
+
+/* Retirer les les lignes sur 
+	tous les liens de navigation */
+nav a {
+	text-decoration: none;
+}
+
+/* Établir une marge intérieure
+	qui aligne mieux les puces */
+ul {
+	padding-left: 1rem;
+}
+
+/* Rythme minimal pour les items de liste */
+ul>*+* {
+	margin-top: 10px;
+}
+
+h5, h6 {
+	font-size: 0.9em;
+}
+
+
+
+/*---------------------------------------*/
+
+/* Structure */
+/* Tout ce qui est de l'ordre de la structure maîtresse */
+/* Marges, dimensions, positionnement, etc. */
+
+body {
+
+	/* Limiter la largeur maximale de la page 
+		et aligner le contenu */
+	max-width: 1168px;
+	padding: 0 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+	/* Générer un nouveu contexte de grille 
+		pour les enfants */
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Retirer les marges par défaut 
+	pour tous les enfants de toute entête. */
+header>* {
+	margin: 0;
+}
+
+/* Assurer que les éléments choisis
+	occupent seuls toute leur rangée/ligne */
+body>header,
+body>nav,
+body>footer {
+	flex-basis: 100%;
+	flex-shrink: 0;
+}
+
+/* Séparer l'espace entre le 
+	contenu principal et secondaire */
+body>main {
+	flex-basis: calc(75% - 5px);
+}
+
+body>aside {
+	flex-basis: calc(25% - 5px);
+	margin-left: 10px;
+	min-width: 15rem;
+}
+
+body>aside,
+body>main {
+	/* Permettre l'occupation totale de l'espace
+		sur fenêtre moyenne ou étroite */
+	flex-grow: 1;
+}
+
+/* Appliquer un rhythme par défaut 
+	avec une spécificité minimale */
+body>* {
+	margin-top: 40px;
+}
+
+
+/* Si on met pas flex on va avoir 
+	des espaces entre les éléments 
+	à cause de inline-block */
+body>nav>div,
+body>nav>aside {
+	display: flex;
+	align-items: center;
+}
+
+/* Rythme pour les sections de la
+	navigation principale */
+body>nav>*+* {
+	margin-top: 10px;
+}
+
+body>nav>aside>a {
+	padding: 5px 10px;
+}
+
+/* Permettre aux éléments de briser
+	la ligne sur fenêtre étroite */
+body>nav>aside {
+	flex-wrap: wrap;
+}
+
+/* Forcer le champ de recherche
+	à la droite du conteneur flex */
+body>nav>aside>a:last-of-type {
+	margin-right: auto;
+}
+
+/* Ne fonctionnera pas car le champ est poussé
+	à la droite une fois la ligne brisée */
+/*body>nav>aside>aside {
+	margin-left: auto;
+}*/
+
+
+/* Prévenir les liens tombant sur deux lignes */
+body>nav>aside>* {
+	white-space: nowrap;
+}
+
+/* Espacer l'icône du champ */
+body>nav>aside>input+* {
+	margin-left: 10px;
+}
+
+/* Permet d'espacer les liens tout en leur procurant
+	une zone d'interaction plus grande */
+body>nav>div>a {
+	padding: 10px;
+}
+
+/* Permet de garder l'entête sur sa propre ligne tout en
+	gardant les deux sections subséquentes côte-à-côte */
+body>main {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Appliquer des marges internes minimales
+	et assurer que les dimensions fixées demeurent
+	stables */
+body>main>*,
+body>aside>* {
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+/* Forcer les entêtes de section à prendre 
+	l'espace complet tout en incluant les marges
+	intérieures de la section parente */
+section>header {
+	width: 100%;
+	padding: 10px;
+	margin-left: -10px;
+	margin-top: -10px;
+}
+
+/* Rythme par défaut avec 
+	le minimum de spécificité */
+body>main>*+*,
+body>aside>*+* {
+	margin-top: 10px;
+}
+
+main>header {
+	/* Force l'entête à prendre toute la largeur du parent */
+	flex-basis: 100%;
+	flex-shrink: 0;
+}
+
+/* Conteneur nécessaire *si* nous voulons 
+	insérer une couleur d'arrière-plan */
+main>header>div {
+	/* Générer un nouveau contexte d'affichage
+		en grille avec gouttières pour les enfants */
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -20px;
+	margin-top: -20px;
+	/* Utiliser pour montrer le problème*/
+	/*background-color: aqua; */
+}
+
+/* Forcer les enfants de l'entête de contenu 
+	sur deux lignes. Les espacer d'une gouttière. */
+main>header>div>* {
+	flex-basis: calc(50% - 20px);
+	margin-top: 20px;
+	margin-left: 20px;
+	flex-grow: 1;
+}
+
+/* Deux sections égales qui formeront deux rangées
+	lorsque leur largeur minimale sera traversée */
+main>section {
+	flex-basis: 50%;
+	min-width: 20em;
+	flex-grow: 1;
+}
+
+/* Appliquer un rythme aux éléments 
+	dans chacune des sections */
+main>section>*+* {
+	margin-top: 20px;
+}
+
+/* Assurer que les entêtes de sections présentent
+	leurs enfants sur une seule ligne avec rythme */
+section>header>*,
+aside>header>* {
+	display: inline-block;
+	margin-right: .5em;
+}
+
+
+body>footer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+body>footer>* {
+	margin-bottom: 20px;
+}
+
+body>footer>nav>*+* {
+	margin-left: 20px;
+}
+
+section>nav>* {
+	padding: 5px;
+	display: inline-block; /*important pour le padding*/
+}
+
+/*---------------------------------------*/
+/* Couleurs et styles graphiques */
+
+section>header {
+	background-color: lightgrey;
+}
+
+body {
+	background-color: rgba(0,0,0,.08);
+}
+
+nav>div {
+	background-color: rgba(0,0,0,.06);
+}
+
+main>header {
+	background-color: white;
+}
+
+body>aside {
+	background-color: rgba(255,255,255,.5);
+}
+
+main>section:first-of-type {
+	background-color: rgba(255,255,255,.75);
+}
+
+main>section:last-of-type {
+	background-color: rgba(255,255,255,.25);
+}
+
+body>footer {
+	color: #5a5959;
+}
+
+body>nav>aside,
+body>aside {
+	color: #5a5959;
+}
+
+section>nav {
+	border-bottom: 1px solid lightgrey;
+}
+
+
+/*---------------------------------------*/
+/* Typographie */
+
+body {
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body>nav>aside {
+	font-size: .75em;
+}
+
+section>header,
+aside>header {
+	font-size: .6125em;
+}
+
+aside ul {
+	font-size: .8125em;
+}
+
+section>nav {
+	font-size: .75em;
+}
+
+body>footer {
+	font-size: .8125em;
+}
+
+
+/*---------------------------------------*/
+
+/* Composantes spécifiques */
+
+/* Retirer toutes les marges par défaut */
+.vignette * {
+	margin: 0;
+}
+
+.vignette {
+	max-width: 40em;
+	min-width: 20em;
+}
+
+/* Créer un espace pour l'image de la vignette
+	et la flotter à la gauche. Assurer que l'image
+	soit carrée et en proportion de son parent */
+.vignette figure {
+	background-color: rgba(0,0,0,.06);
+	outline: 1px solid lightgrey;
+	outline-offset: -2px;
+	height: 0;
+	width: 25%;
+	padding-top: 25%;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.vignette figure~* {
+	overflow: hidden;
+}
+
+/* Espacer les éléments successifs au float
+	ne fonctionne pas. Il faut appliquer la marge
+	à l'élément comme tel */
+/*.vignette figure~* {
+	margin-left: 10px;
+}*/
+
+/* Forcer le parent à clairer l'image flottante */
+.vignette:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/* Réduire la taille de caractères de base
+	pour affecter tous les éléments */
+.vignette {
+	font-size: .75em;
+}
+
+.vignette h3 {
+	font-size: 1.5em;
+}
+
+.vignette>*:not(figure)+* {
+	margin-top: 5px;
+}
+
+.vignette h3+p {
+	margin-top: 20px;
+}
+
+.vignette aside {
+	float: right;
+}
+
+/* Variante — petite */
+main>section .vignette {
+	font-size: .75em;
+}
+
+main>section .vignette figure {
+	width: 15%;
+	padding-top: 15%;
+}
+
+/* Retirer les styles de listes par défaut. */
+ul.palmares {
+	list-style: none;
+	padding: 0;
+	counter-reset: palmares;
+}
+
+.palmares * {
+	margin: 0;
+}
+
+ul.palmares>li {
+	counter-increment: palmares;
+
+	display: flex;
+	align-items: baseline;
+}
+
+ul.palmares>li+li {
+	margin-top: 2px;
+}
+
+ul.palmares>li:after {
+	content: counter(palmares);
+	margin-left: auto;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	background-color: rgba(0,0,0,.05);
+}
+
+.palmares a {
+	text-decoration: none;
+}
+
+.palmares small {
+	font-weight: 400;
+	margin-left: .5em;
+}
+
+
+.commentaires * {
+	font-weight: 400;
+}
+
+.commentaires>li>* {
+	display: inline-block;
+	margin: 0;
+}
+
+.commentaires>li>* {
+	margin-right: .5em;
+}
+
+
+/* Utilitaires */
+
+.invisible { 
+    position: absolute !important;
+    height: 1px; 
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /* added line */
+}

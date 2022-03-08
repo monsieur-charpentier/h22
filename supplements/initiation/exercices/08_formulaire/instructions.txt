@@ -1,0 +1,16 @@
+# Exercice #08 — Créer le formulaire maquetté
+
+1. Prenez connaissance du fichier `reference.png`. Il contient le formulaire à reproduire.
+2. Ouvrez le fichier `index.html`.
+3. Développez votre formulaire à l'endroit prévu à cet effet.
+4. Tout le code CSS nécessaire au bon affichage est déjà inscrit dans la balise `<style>`. Vous n'avez besoin que de balises HTML pour arriver au résultat final.
+5. Prenez soin d'assurer la meilleure expérience utilisateur en intégrant les attributs adéquats aux balises pertinentes.
+5. Assurez-vous de considérer les options de sélection ci-dessous pour le champ « Point de service ».
+
+## Point de service — Options de sélection 
+
+- Joliette
+- Montréal
+- Drummondville
+- Sherbrooke
+- Trois-Rivières
